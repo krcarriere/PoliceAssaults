@@ -1,0 +1,15 @@
+Note: A lot of this data needs to be cleaned manually just to get it in the right dataframe. We want each state-year on a different row, with all variables in columns. 
+Find Data at: 
+1998 + 1999:
+https://www.census.gov/popest/data/state/asrh/1990s/st_detail.html
+
+2000 - 2009:
+https://www.census.gov/popest/data/state/asrh/2009/SC-EST2009-03.html
+
+2010 - 2014:
+https://www.census.gov/popest/data/national/totals/2014/NST-EST2014-alldata.html
+
+
+
+Income Data:
+https://www.census.gov/hhes/www/income/data/statemedian/
