@@ -1663,6 +1663,331 @@ ucr_clean = function(data) {
   data$OctUnfOVThf <- data$V1130
   data$NovUnfOVThf <- data$V1248
   data$DecUnfOVThf <- data$V1366
+  
+  data$JanClrMurd <- data$V96
+  data$JanClrMans <- data$V97
+  data$JanClrRapTot <- data$V98
+  data$JanClrForcRap <- data$V99
+  data$JanClrAtmpRap <- data$V100
+  data$JanClrRobbTot <- data$V101
+  data$JanClrGunRobb <- data$V102
+  data$JanClrKnifRobb <- data$V103
+  data$JanClrOthWpnRobb <- data$V104
+  data$JanClrStrArmRobb <- data$V105
+  data$JanClrAsstTot <- data$V106
+  data$JanClrGunAsst <- data$V107
+  data$JanClrKnifAsst <- data$V108
+  data$JanClrOthWpnAsst <- data$V109
+  data$JanClrHandAsst <- data$V110
+  data$JanClrSimAsst <- data$V111
+  data$JanClrBurgTotl <- data$V112
+  data$JanClrForcEntry <- data$V113
+  data$JanClrEntry <- data$V114
+  data$JanClrAttBurg <- data$V115
+  data$JanClrLarcTot <- data$V116
+  data$JanClrVhcThftTot <- data$V117
+  data$JanClrAutoTheft <- data$V118
+  data$JanClrTruckTheft <- data$V119
+  data$JanClrOthVCTheft <- data$V120
+  data$JanTotClear <- data$V121
+  
+  data$FebClrMurd <- data$V214
+  data$FebClrMans <- data$V215
+  data$FebClrRapTot <- data$V216
+  data$FebClrForcRap <- data$V217
+  data$FebClrAtmpRap <- data$V218
+  data$FebClrRobbTot <- data$V219
+  data$FebClrGunRobb <- data$V220
+  data$FebClrKnifRobb <- data$V221
+  data$FebClrOthWpnRobb <- data$V222
+  data$FebClrStrArmRobb <- data$V223
+  data$FebClrAsstTot <- data$V224
+  data$FebClrGunAsst <- data$V225
+  data$FebClrKnifAsst <- data$V226
+  data$FebClrOthWpnAsst <- data$V227
+  data$FebClrHandAsst <- data$V228
+  data$FebClrSimAsst <- data$V229
+  data$FebClrBurgTotl <- data$V230
+  data$FebClrForcEntry <- data$V231
+  data$FebClrEntry <- data$V232
+  data$FebClrAttBurg <- data$V233
+  data$FebClrLarcTot <- data$V234
+  data$FebClrVhcThftTot <- data$V235
+  data$FebClrAutoTheft <- data$V236
+  data$FebClrTruckTheft <- data$V237
+  data$FebClrOthVCTheft <- data$V238
+  data$FebTotClear <- data$V239
+  
+  data$MarClrMurd <- data$V332
+  data$MarClrMans <- data$V333
+  data$MarClrRapTot <- data$V334
+  data$MarClrForcRap <- data$V335
+  data$MarClrAtmpRap <- data$V336
+  data$MarClrRobbTot <- data$V337
+  data$MarClrGunRobb <- data$V338
+  data$MarClrKnifRobb <- data$V339
+  data$MarClrOthWpnRobb <- data$V340
+  data$MarClrStrArmRobb <- data$V341
+  data$MarClrAsstTot <- data$V342
+  data$MarClrGunAsst <- data$V343
+  data$MarClrKnifAsst <- data$V344
+  data$MarClrOthWpnAsst <- data$V345
+  data$MarClrHandAsst <- data$V346
+  data$MarClrSimAsst <- data$V347
+  data$MarClrBurgTotl <- data$V348
+  data$MarClrForcEntry <- data$V349
+  data$MarClrEntry <- data$V350
+  data$MarClrAttBurg <- data$V351
+  data$MarClrLarcTot <- data$V352
+  data$MarClrVhcThftTot <- data$V353
+  data$MarClrAutoTheft <- data$V354
+  data$MarClrTruckTheft <- data$V355
+  data$MarClrOthVCTheft <- data$V356
+  data$MarTotClear <- data$V357
+  
+  data$AprClrMurd <- data$V450
+  data$AprClrMans <- data$V451
+  data$AprClrRapTot <- data$V452
+  data$AprClrForcRap <- data$V453
+  data$AprClrAtmpRap <- data$V454
+  data$AprClrRobbTot <- data$V455
+  data$AprClrGunRobb <- data$V456
+  data$AprClrKnifRobb <- data$V457
+  data$AprClrOthWpnRobb <- data$V458
+  data$AprClrStrArmRobb <- data$V459
+  data$AprClrAsstTot <- data$V460
+  data$AprClrGunAsst <- data$V461
+  data$AprClrKnifAsst <- data$V462
+  data$AprClrOthWpnAsst <- data$V463
+  data$AprClrHandAsst <- data$V464
+  data$AprClrSimAsst <- data$V465
+  data$AprClrBurgTotl <- data$V466
+  data$AprClrForcEntry <- data$V467
+  data$AprClrEntry <- data$V468
+  data$AprClrAttBurg <- data$V469
+  data$AprClrLarcTot <- data$V470
+  data$AprClrVhcThftTot <- data$V471
+  data$AprClrAutoTheft <- data$V472
+  data$AprClrTruckTheft <- data$V473
+  data$AprClrOthVCTheft <- data$V474
+  data$AprTotClear <- data$V475
+  
+  data$MayClrMurd <- data$V568
+  data$MayClrMans <- data$V569
+  data$MayClrRapTot <- data$V570
+  data$MayClrForcRap <- data$V571
+  data$MayClrAtmpRap <- data$V572
+  data$MayClrRobbTot <- data$V573
+  data$MayClrGunRobb <- data$V574
+  data$MayClrKnifRobb <- data$V575
+  data$MayClrOthWpnRobb <- data$V576
+  data$MayClrStrArmRobb <- data$V577
+  data$MayClrAsstTot <- data$V578
+  data$MayClrGunAsst <- data$V579
+  data$MayClrKnifAsst <- data$V580
+  data$MayClrOthWpnAsst <- data$V581
+  data$MayClrHandAsst <- data$V582
+  data$MayClrSimAsst <- data$V583
+  data$MayClrBurgTotl <- data$V584
+  data$MayClrForcEntry <- data$V585
+  data$MayClrEntry <- data$V586
+  data$MayClrAttBurg <- data$V587
+  data$MayClrLarcTot <- data$V588
+  data$MayClrVhcThftTot <- data$V589
+  data$MayClrAutoTheft <- data$V590
+  data$MayClrTruckTheft <- data$V591
+  data$MayClrOthVCTheft <- data$V592
+  data$MayTotClear <- data$V593
+  
+  data$JunClrMurd <- data$V686
+  data$JunClrMans <- data$V687
+  data$JunClrRapTot <- data$V688
+  data$JunClrForcRap <- data$V689
+  data$JunClrAtmpRap <- data$V690
+  data$JunClrRobbTot <- data$V691
+  data$JunClrGunRobb <- data$V692
+  data$JunClrKnifRobb <- data$V693
+  data$JunClrOthWpnRobb <- data$V694
+  data$JunClrStrArmRobb <- data$V695
+  data$JunClrAsstTot <- data$V696
+  data$JunClrGunAsst <- data$V697
+  data$JunClrKnifAsst <- data$V698
+  data$JunClrOthWpnAsst <- data$V699
+  data$JunClrHandAsst <- data$V700
+  data$JunClrSimAsst <- data$V701
+  data$JunClrBurgTotl <- data$V702
+  data$JunClrForcEntry <- data$V703
+  data$JunClrEntry <- data$V704
+  data$JunClrAttBurg <- data$V705
+  data$JunClrLarcTot <- data$V706
+  data$JunClrVhcThftTot <- data$V707
+  data$JunClrAutoTheft <- data$V708
+  data$JunClrTruckTheft <- data$V709
+  data$JunClrOthVCTheft <- data$V710
+  data$JunTotClear <- data$V711
+  
+  data$JulClrMurd <- data$V804
+  data$JulClrMans <- data$V805
+  data$JulClrRapTot <- data$V806
+  data$JulClrForcRap <- data$V807
+  data$JulClrAtmpRap <- data$V808
+  data$JulClrRobbTot <- data$V809
+  data$JulClrGunRobb <- data$V810
+  data$JulClrKnifRobb <- data$V811
+  data$JulClrOthWpnRobb <- data$V812
+  data$JulClrStrArmRobb <- data$V813
+  data$JulClrAsstTot <- data$V814
+  data$JulClrGunAsst <- data$V815
+  data$JulClrKnifAsst <- data$V816
+  data$JulClrOthWpnAsst <- data$V817
+  data$JulClrHandAsst <- data$V818
+  data$JulClrSimAsst <- data$V819
+  data$JulClrBurgTotl <- data$V820
+  data$JulClrForcEntry <- data$V821
+  data$JulClrEntry <- data$V822
+  data$JulClrAttBurg <- data$V823
+  data$JulClrLarcTot <- data$V824
+  data$JulClrVhcThftTot <- data$V825
+  data$JulClrAutoTheft <- data$V826
+  data$JulClrTruckTheft <- data$V827
+  data$JulClrOthVCTheft <- data$V828
+  data$JulTotClear <- data$V829
+  
+  data$AugClrMurd <- data$V922
+  data$AugClrMans <- data$V923
+  data$AugClrRapTot <- data$V924
+  data$AugClrForcRap <- data$V925
+  data$AugClrAtmpRap <- data$V926
+  data$AugClrRobbTot <- data$V927
+  data$AugClrGunRobb <- data$V928
+  data$AugClrKnifRobb <- data$V929
+  data$AugClrOthWpnRobb <- data$V930
+  data$AugClrStrArmRobb <- data$V931
+  data$AugClrAsstTot <- data$V932
+  data$AugClrGunAsst <- data$V933
+  data$AugClrKnifAsst <- data$V934
+  data$AugClrOthWpnAsst <- data$V935
+  data$AugClrHandAsst <- data$V936
+  data$AugClrSimAsst <- data$V937
+  data$AugClrBurgTotl <- data$V938
+  data$AugClrForcEntry <- data$V939
+  data$AugClrEntry <- data$V940
+  data$AugClrAttBurg <- data$V941
+  data$AugClrLarcTot <- data$V942
+  data$AugClrVhcThftTot <- data$V943
+  data$AugClrAutoTheft <- data$V944
+  data$AugClrTruckTheft <- data$V945
+  data$AugClrOthVCTheft <- data$V946
+  data$AugTotClear <- data$V947
+  
+  data$SepClrMurd <- data$V1040
+  data$SepClrMans <- data$V1041
+  data$SepClrRapTot <- data$V1042
+  data$SepClrForcRap <- data$V1043
+  data$SepClrAtmpRap <- data$V1044
+  data$SepClrRobbTot <- data$V1045
+  data$SepClrGunRobb <- data$V1046
+  data$SepClrKnifRobb <- data$V1047
+  data$SepClrOthWpnRobb <- data$V1048
+  data$SepClrStrArmRobb <- data$V1049
+  data$SepClrAsstTot <- data$V1050
+  data$SepClrGunAsst <- data$V1051
+  data$SepClrKnifAsst <- data$V1052
+  data$SepClrOthWpnAsst <- data$V1053
+  data$SepClrHandAsst <- data$V1054
+  data$SepClrSimAsst <- data$V1055
+  data$SepClrBurgTotl <- data$V1056
+  data$SepClrForcEntry <- data$V1057
+  data$SepClrEntry <- data$V1058
+  data$SepClrAttBurg <- data$V1059
+  data$SepClrLarcTot <- data$V1060
+  data$SepClrVhcThftTot <- data$V1061
+  data$SepClrAutoTheft <- data$V1062
+  data$SepClrTruckTheft <- data$V1063
+  data$SepClrOthVCTheft <- data$V1064
+  data$SepTotClear <- data$V1065
+  
+  data$OctClrMurd <- data$V1158
+  data$OctClrMans <- data$V1159
+  data$OctClrRapTot <- data$V1160
+  data$OctClrForcRap <- data$V1161
+  data$OctClrAtmpRap <- data$V1162
+  data$OctClrRobbTot <- data$V1163
+  data$OctClrGunRobb <- data$V1164
+  data$OctClrKnifRobb <- data$V1165
+  data$OctClrOthWpnRobb <- data$V1166
+  data$OctClrStrArmRobb <- data$V1167
+  data$OctClrAsstTot <- data$V1168
+  data$OctClrGunAsst <- data$V1169
+  data$OctClrKnifAsst <- data$V1170
+  data$OctClrOthWpnAsst <- data$V1171
+  data$OctClrHandAsst <- data$V1172
+  data$OctClrSimAsst <- data$V1173
+  data$OctClrBurgTotl <- data$V1174
+  data$OctClrForcEntry <- data$V1175
+  data$OctClrEntry <- data$V1176
+  data$OctClrAttBurg <- data$V1177
+  data$OctClrLarcTot <- data$V1178
+  data$OctClrVhcThftTot <- data$V1179
+  data$OctClrAutoTheft <- data$V1180
+  data$OctClrTruckTheft <- data$V1181
+  data$OctClrOthVCTheft <- data$V1182
+  data$OctTotClear <- data$V1183
+  
+  data$NovClrMurd <- data$V1276
+  data$NovClrMans <- data$V1277
+  data$NovClrRapTot <- data$V1278
+  data$NovClrForcRap <- data$V1279
+  data$NovClrAtmpRap <- data$V1280
+  data$NovClrRobbTot <- data$V1281
+  data$NovClrGunRobb <- data$V1282
+  data$NovClrKnifRobb <- data$V1283
+  data$NovClrOthWpnRobb <- data$V1284
+  data$NovClrStrArmRobb <- data$V1285
+  data$NovClrAsstTot <- data$V1286
+  data$NovClrGunAsst <- data$V1287
+  data$NovClrKnifAsst <- data$V1288
+  data$NovClrOthWpnAsst <- data$V1289
+  data$NovClrHandAsst <- data$V1290
+  data$NovClrSimAsst <- data$V1291
+  data$NovClrBurgTotl <- data$V1292
+  data$NovClrForcEntry <- data$V1293
+  data$NovClrEntry <- data$V1294
+  data$NovClrAttBurg <- data$V1295
+  data$NovClrLarcTot <- data$V1296
+  data$NovClrVhcThftTot <- data$V1297
+  data$NovClrAutoTheft <- data$V1298
+  data$NovClrTruckTheft <- data$V1299
+  data$NovClrOthVCTheft <- data$V1300
+  data$NovTotClear <- data$V1301
+  
+  data$DecClrMurd <- data$V1394
+  data$DecClrMans <- data$V1395
+  data$DecClrRapTot <- data$V1396
+  data$DecClrForcRap <- data$V1397
+  data$DecClrAtmpRap <- data$V1398
+  data$DecClrRobbTot <- data$V1399
+  data$DecClrGunRobb <- data$V1400
+  data$DecClrKnifRobb <- data$V1401
+  data$DecClrOthWpnRobb <- data$V1402
+  data$DecClrStrArmRobb <- data$V1403
+  data$DecClrAsstTot <- data$V1404
+  data$DecClrGunAsst <- data$V1405
+  data$DecClrKnifAsst <- data$V1406
+  data$DecClrOthWpnAsst <- data$V1407
+  data$DecClrHandAsst <- data$V1408
+  data$DecClrSimAsst <- data$V1409
+  data$DecClrBurgTotl <- data$V1410
+  data$DecClrForcEntry <- data$V1411
+  data$DecClrEntry <- data$V1412
+  data$DecClrAttBurg <- data$V1413
+  data$DecClrLarcTot <- data$V1414
+  data$DecClrVhcThftTot <- data$V1415
+  data$DecClrAutoTheft <- data$V1416
+  data$DecClrTruckTheft <- data$V1417
+  data$DecClrOthVCTheft <- data$V1418
+  data$DecTotClear <- data$V1419
+  
   #CONTROLS
   data$Population <- data$V14 + data$V17 + data$V20
   data$AgencyName <- data$V26
@@ -1827,7 +2152,175 @@ ucr_flip <- function(data) {
     "MayUnfNumMurd", "JunUnfNumMurd",
     "JulUnfNumMurd", "AugUnfNumMurd",
     "SepUnfNumMurd", "OctUnfNumMurd",
-    "NovUnfNumMurd", "DecUnfNumMurd"
+    "NovUnfNumMurd", "DecUnfNumMurd",
+    
+    "JanClrMurd", "JanClrMans",
+    "JanClrRapTot", "JanClrForcRap",
+    "JanClrAtmpRap", "JanClrRobbTot",
+    "JanClrGunRobb", "JanClrKnifRobb",
+    "JanClrOthWpnRobb", "JanClrStrArmRobb",
+    "JanClrAsstTot", "JanClrGunAsst",
+    "JanClrKnifAsst", "JanClrOthWpnAsst",
+    "JanClrHandAsst", "JanClrSimAsst",
+    "JanClrBurgTotl", "JanClrForcEntry",
+    "JanClrEntry", "JanClrAttBurg",
+    "JanClrLarcTot", "JanClrVhcThftTot",
+    "JanClrAutoTheft", "JanClrTruckTheft",
+    "JanClrOthVCTheft", "JanTotClear",
+    
+    "FebClrMurd", "FebClrMans",
+    "FebClrRapTot", "FebClrForcRap",
+    "FebClrAtmpRap", "FebClrRobbTot",
+    "FebClrGunRobb", "FebClrKnifRobb",
+    "FebClrOthWpnRobb", "FebClrStrArmRobb",
+    "FebClrAsstTot", "FebClrGunAsst",
+    "FebClrKnifAsst", "FebClrOthWpnAsst",
+    "FebClrHandAsst", "FebClrSimAsst",
+    "FebClrBurgTotl", "FebClrForcEntry",
+    "FebClrEntry", "FebClrAttBurg",
+    "FebClrLarcTot", "FebClrVhcThftTot",
+    "FebClrAutoTheft", "FebClrTruckTheft",
+    "FebClrOthVCTheft", "FebTotClear",
+    
+    "MarClrMurd", "MarClrMans",
+    "MarClrRapTot", "MarClrForcRap",
+    "MarClrAtmpRap", "MarClrRobbTot",
+    "MarClrGunRobb", "MarClrKnifRobb",
+    "MarClrOthWpnRobb", "MarClrStrArmRobb",
+    "MarClrAsstTot", "MarClrGunAsst",
+    "MarClrKnifAsst", "MarClrOthWpnAsst",
+    "MarClrHandAsst", "MarClrSimAsst",
+    "MarClrBurgTotl", "MarClrForcEntry",
+    "MarClrEntry", "MarClrAttBurg",
+    "MarClrLarcTot", "MarClrVhcThftTot",
+    "MarClrAutoTheft", "MarClrTruckTheft",
+    "MarClrOthVCTheft","MarTotClear",
+    
+    "AprClrMurd", "AprClrMans",
+    "AprClrRapTot", "AprClrForcRap",
+    "AprClrAtmpRap", "AprClrRobbTot",
+    "AprClrGunRobb", "AprClrKnifRobb",
+    "AprClrOthWpnRobb", "AprClrStrArmRobb",
+    "AprClrAsstTot", "AprClrGunAsst",
+    "AprClrKnifAsst", "AprClrOthWpnAsst",
+    "AprClrHandAsst", "AprClrSimAsst",
+    "AprClrBurgTotl", "AprClrForcEntry",
+    "AprClrEntry", "AprClrAttBurg",
+    "AprClrLarcTot", "AprClrVhcThftTot",
+    "AprClrAutoTheft", "AprClrTruckTheft",
+    "AprClrOthVCTheft", "AprTotClear",
+    
+    "MayClrMurd", "MayClrMans",
+    "MayClrRapTot", "MayClrForcRap",
+    "MayClrAtmpRap", "MayClrRobbTot",
+    "MayClrGunRobb", "MayClrKnifRobb",
+    "MayClrOthWpnRobb", "MayClrStrArmRobb",
+    "MayClrAsstTot", "MayClrGunAsst",
+    "MayClrKnifAsst", "MayClrOthWpnAsst",
+    "MayClrHandAsst", "MayClrSimAsst",
+    "MayClrBurgTotl", "MayClrForcEntry",
+    "MayClrEntry", "MayClrAttBurg",
+    "MayClrLarcTot", "MayClrVhcThftTot",
+    "MayClrAutoTheft", "MayClrTruckTheft",
+    "MayClrOthVCTheft", "MayTotClear",
+    
+    "JunClrMurd", "JunClrMans",
+    "JunClrRapTot", "JunClrForcRap",
+    "JunClrAtmpRap", "JunClrRobbTot",
+    "JunClrGunRobb", "JunClrKnifRobb",
+    "JunClrOthWpnRobb", "JunClrStrArmRobb",
+    "JunClrAsstTot", "JunClrGunAsst",
+    "JunClrKnifAsst", "JunClrOthWpnAsst",
+    "JunClrHandAsst", "JunClrSimAsst",
+    "JunClrBurgTotl", "JunClrForcEntry",
+    "JunClrEntry", "JunClrAttBurg",
+    "JunClrLarcTot", "JunClrVhcThftTot",
+    "JunClrAutoTheft", "JunClrTruckTheft",
+    "JunClrOthVCTheft", "JunTotClear",
+    
+    "JulClrMurd", "JulClrMans",
+    "JulClrRapTot", "JulClrForcRap",
+    "JulClrAtmpRap", "JulClrRobbTot",
+    "JulClrGunRobb", "JulClrKnifRobb",
+    "JulClrOthWpnRobb", "JulClrStrArmRobb",
+    "JulClrAsstTot",  "JulClrGunAsst",
+    "JulClrKnifAsst", "JulClrOthWpnAsst",
+    "JulClrHandAsst", "JulClrSimAsst",
+    "JulClrBurgTotl", "JulClrForcEntry",
+    "JulClrEntry", "JulClrAttBurg",
+    "JulClrLarcTot", "JulClrVhcThftTot",
+    "JulClrAutoTheft", "JulClrTruckTheft",
+    "JulClrOthVCTheft", "JulTotClear",
+    
+    "AugClrMurd", "AugClrMans",
+    "AugClrRapTot", "AugClrForcRap",
+    "AugClrAtmpRap", "AugClrRobbTot",
+    "AugClrGunRobb", "AugClrKnifRobb",
+    "AugClrOthWpnRobb", "AugClrStrArmRobb",
+    "AugClrAsstTot", "AugClrGunAsst",
+    "AugClrKnifAsst", "AugClrOthWpnAsst",
+    "AugClrHandAsst", "AugClrSimAsst",
+    "AugClrBurgTotl","AugClrForcEntry",
+    "AugClrEntry", "AugClrAttBurg",
+    "AugClrLarcTot", "AugClrVhcThftTot",
+    "AugClrAutoTheft", "AugClrTruckTheft",
+    "AugClrOthVCTheft", "AugTotClear",
+    
+    "SepClrMurd", "SepClrMans",
+    "SepClrRapTot", "SepClrForcRap",
+    "SepClrAtmpRap", "SepClrRobbTot",
+    "SepClrGunRobb", "SepClrKnifRobb",
+    "SepClrOthWpnRobb", "SepClrStrArmRobb",
+    "SepClrAsstTot", "SepClrGunAsst",
+    "SepClrKnifAsst", "SepClrOthWpnAsst",
+    "SepClrHandAsst", "SepClrSimAsst",
+    "SepClrBurgTotl", "SepClrForcEntry",
+    "SepClrEntry", "SepClrAttBurg",
+    "SepClrLarcTot", "SepClrVhcThftTot",
+    "SepClrAutoTheft", "SepClrTruckTheft",
+    "SepClrOthVCTheft", "SepTotClear",
+    
+    "OctClrMurd", "OctClrMans",
+    "OctClrRapTot", "OctClrForcRap",
+    "OctClrAtmpRap","OctClrRobbTot",
+    "OctClrGunRobb","OctClrKnifRobb",
+    "OctClrOthWpnRobb", "OctClrStrArmRobb",
+    "OctClrAsstTot","OctClrGunAsst",
+    "OctClrKnifAsst", "OctClrOthWpnAsst",
+    "OctClrHandAsst", "OctClrSimAsst",
+    "OctClrBurgTotl", "OctClrForcEntry",
+    "OctClrEntry", "OctClrAttBurg",
+    "OctClrLarcTot", "OctClrVhcThftTot",
+    "OctClrAutoTheft", "OctClrTruckTheft",
+    "OctClrOthVCTheft", "OctTotClear",
+    
+    "NovClrMurd", "NovClrMans",
+    "NovClrRapTot", "NovClrForcRap",
+    "NovClrAtmpRap", "NovClrRobbTot",
+    "NovClrGunRobb", "NovClrKnifRobb",
+    "NovClrOthWpnRobb", "NovClrStrArmRobb",
+    "NovClrAsstTot", "NovClrGunAsst",
+    "NovClrKnifAsst", "NovClrOthWpnAsst",
+    "NovClrHandAsst", "NovClrSimAsst",
+    "NovClrBurgTotl", "NovClrForcEntry",
+    "NovClrEntry", "NovClrAttBurg",
+    "NovClrLarcTot", "NovClrVhcThftTot",
+    "NovClrAutoTheft", "NovClrTruckTheft",
+    "NovClrOthVCTheft", "NovTotClear",
+    
+    "DecClrMurd", "DecClrMans",
+    "DecClrRapTot", "DecClrForcRap",
+    "DecClrAtmpRap", "DecClrRobbTot",
+    "DecClrGunRobb", "DecClrKnifRobb",
+    "DecClrOthWpnRobb", "DecClrStrArmRobb",
+    "DecClrAsstTot", "DecClrGunAsst",
+    "DecClrKnifAsst", "DecClrOthWpnAsst",
+    "DecClrHandAsst", "DecClrSimAsst",
+    "DecClrBurgTotl", "DecClrForcEntry",
+    "DecClrEntry", "DecClrAttBurg",
+    "DecClrLarcTot", "DecClrVhcThftTot",
+    "DecClrAutoTheft", "DecClrTruckTheft",
+    "DecClrOthVCTheft", "DecTotClear"
   ), 
   variable.name="variable")                
   
@@ -2080,6 +2573,319 @@ ucr_flip <- function(data) {
   data.collapse$Month[data.collapse$variable== "NovUnfForcEnt"] <- "November"
   data.collapse$Month[data.collapse$variable== "DecUnfForcEnt"] <- "December"
   
+  data.collapse$Month[data.collapse$variable== "JanClrMurd"] <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrMans"] <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrRapTot"]  <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrForcRap"] <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrAtmpRap"] <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrRobbTot"] <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrGunRobb"]  <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrKnifRobb"] <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrOthWpnRobb"] <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrStrArmRobb"] <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrAsstTot"]  <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrGunAsst"] <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrKnifAsst"] <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrOthWpnAsst"] <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrHandAsst"] <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrSimAsst"] <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrBurgTotl"]  <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrForcEntry"] <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrEntry"]  <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrAttBurg"] <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrLarcTot"]  <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrVhcThftTot"] <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrAutoTheft"]  <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrTruckTheft"] <- "January"
+  data.collapse$Month[data.collapse$variable== "JanClrOthVCTheft"] <- "January"
+  data.collapse$Month[data.collapse$variable== "JanTotClear"] <- "January"
+  data.collapse$Month[data.collapse$variable== "FebClrMurd"]  <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrMans"] <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrRapTot"]  <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrForcRap"] <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrAtmpRap"]  <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrRobbTot"] <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrGunRobb"]  <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrKnifRobb"] <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrOthWpnRobb"] <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrStrArmRobb"] <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrAsstTot"] <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrGunAsst"] <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrKnifAsst"] <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrOthWpnAsst"] <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrHandAsst"] <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrSimAsst"] <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrBurgTotl"] <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrForcEntry"] <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrEntry"]  <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrAttBurg"] <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrLarcTot"]  <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrVhcThftTot"] <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrAutoTheft"] <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrTruckTheft"] <- "February"
+  data.collapse$Month[data.collapse$variable== "FebClrOthVCTheft"]  <- "February"
+  data.collapse$Month[data.collapse$variable== "FebTotClear"] <- "February"
+  data.collapse$Month[data.collapse$variable== "MarClrMurd"] <- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrMans"]<- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrRapTot"] <- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrForcRap"]<- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrAtmpRap"]<- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrRobbTot"]<- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrGunRobb"]<- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrKnifRobb"]<- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrOthWpnRobb"] <- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrStrArmRobb"]<- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrAsstTot"] <- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrGunAsst"]<- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrKnifAsst"]<- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrOthWpnAsst"]<- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrHandAsst"] <- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrSimAsst"]<- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrBurgTotl"] <- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrForcEntry"]<- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrEntry"] <- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrAttBurg"]<- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrLarcTot"] <- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrVhcThftTot"]<- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrAutoTheft"]<- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrTruckTheft"]<- "March"
+  data.collapse$Month[data.collapse$variable== "MarClrOthVCTheft"]<- "March"
+  data.collapse$Month[data.collapse$variable== "MarTotClear"]<- "March"
+  data.collapse$Month[data.collapse$variable== "AprClrMurd"]<- "April" 
+  data.collapse$Month[data.collapse$variable== "AprClrMans"]<- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrRapTot"] <- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrForcRap"]<- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrAtmpRap"] <- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrRobbTot"]<- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrGunRobb"] <- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrKnifRobb"]<- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrOthWpnRobb"] <- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrStrArmRobb"]<- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrAsstTot"] <- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrGunAsst"]<- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrKnifAsst"] <- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrOthWpnAsst"]<- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrHandAsst"]<- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrSimAsst"]<- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrBurgTotl"] <- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrForcEntry"]<- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrEntry"] <- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrAttBurg"]<- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrLarcTot"] <- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrVhcThftTot"]<- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrAutoTheft"]<- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrTruckTheft"]<- "April"
+  data.collapse$Month[data.collapse$variable== "AprClrOthVCTheft"] <- "April"
+  data.collapse$Month[data.collapse$variable== "AprTotClear"]<- "April"
+  data.collapse$Month[data.collapse$variable== "MayClrMurd"] <- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrMans"]<- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrRapTot"] <- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrForcRap"]<- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrAtmpRap"] <- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrRobbTot"]<- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrGunRobb"] <- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrKnifRobb"]<- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrOthWpnRobb"]<- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrStrArmRobb"]<- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrAsstTot"] <- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrGunAsst"]<- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrKnifAsst"]<- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrOthWpnAsst"]<- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrHandAsst"] <- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrSimAsst"]<- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrBurgTotl"]<- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrForcEntry"]<- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrEntry"]<- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrAttBurg"]<- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrLarcTot"]<- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrVhcThftTot"]<- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrAutoTheft"] <- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrTruckTheft"]<- "May"
+  data.collapse$Month[data.collapse$variable== "MayClrOthVCTheft"] <- "May"
+  data.collapse$Month[data.collapse$variable== "MayTotClear"]<- "May"
+  data.collapse$Month[data.collapse$variable== "JunClrMurd"] <- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrMans"]<- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrRapTot"] <- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrForcRap"]<- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrAtmpRap"] <- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrRobbTot"]<- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrGunRobb"] <- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrKnifRobb"]<- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrOthWpnRobb"] <- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrStrArmRobb"]<- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrAsstTot"] <- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrGunAsst"]<- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrKnifAsst"] <- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrOthWpnAsst"]<- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrHandAsst"]<- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrSimAsst"]<- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrBurgTotl"]<- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrForcEntry"]<- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrEntry"] <- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrAttBurg"]<- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrLarcTot"] <- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrVhcThftTot"]<- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrAutoTheft"]<- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrTruckTheft"]<- "June"
+  data.collapse$Month[data.collapse$variable== "JunClrOthVCTheft"]<- "June"
+  data.collapse$Month[data.collapse$variable== "JunTotClear"]<- "June"
+  data.collapse$Month[data.collapse$variable== "JulClrMurd"] <- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrMans"]<- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrRapTot"] <- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrForcRap"]<- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrAtmpRap"] <- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrRobbTot"]<- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrGunRobb"] <- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrKnifRobb"]<- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrOthWpnRobb"] <- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrStrArmRobb"]<- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrAsstTot"] <- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrGunAsst"]<- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrKnifAsst"] <- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrOthWpnAsst"]<- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrHandAsst"] <- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrSimAsst"]<- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrBurgTotl"] <- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrForcEntry"]<- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrEntry"] <- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrAttBurg"]<- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrLarcTot"]<- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrVhcThftTot"]<- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrAutoTheft"] <- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrTruckTheft"]<- "July"
+  data.collapse$Month[data.collapse$variable== "JulClrOthVCTheft"]<- "July"
+  data.collapse$Month[data.collapse$variable== "JulTotClear"]<- "July"
+  data.collapse$Month[data.collapse$variable== "AugClrMurd"]  <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrMans"] <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrRapTot"] <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrForcRap"] <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrAtmpRap"] <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrRobbTot"] <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrGunRobb"]  <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrKnifRobb"] <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrOthWpnRobb"] <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrStrArmRobb"] <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrAsstTot"]  <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrGunAsst"] <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrKnifAsst"]  <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrOthWpnAsst"] <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrHandAsst"]  <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrSimAsst"] <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrBurgTotl"] <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrForcEntry"] <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrEntry"]  <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrAttBurg"] <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrLarcTot"]  <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrVhcThftTot"] <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrAutoTheft"]  <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrTruckTheft"] <- "August"
+  data.collapse$Month[data.collapse$variable== "AugClrOthVCTheft"] <- "August"
+  data.collapse$Month[data.collapse$variable== "AugTotClear"] <- "August"
+  data.collapse$Month[data.collapse$variable== "SepClrMurd"] <- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrMans"]<- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrRapTot"] <- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrForcRap"]<- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrAtmpRap"] <- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrRobbTot"]<- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrGunRobb"]<- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrKnifRobb"]<- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrOthWpnRobb"] <- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrStrArmRobb"]<- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrAsstTot"] <- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrGunAsst"]<- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrKnifAsst"]<- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrOthWpnAsst"]<- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrHandAsst"] <- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrSimAsst"]<- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrBurgTotl"] <- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrForcEntry"]<- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrEntry"] <- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrAttBurg"]<- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrLarcTot"] <- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrVhcThftTot"]<- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrAutoTheft"] <- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrTruckTheft"]<- "September"
+  data.collapse$Month[data.collapse$variable== "SepClrOthVCTheft"]<- "September"
+  data.collapse$Month[data.collapse$variable== "SepTotClear"]<- "September"
+  data.collapse$Month[data.collapse$variable== "OctClrMurd"]  <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrMans"] <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrRapTot"]  <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrForcRap"] <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrAtmpRap"] <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrRobbTot"] <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrGunRobb"] <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrKnifRobb"] <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrOthWpnRobb"]  <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrStrArmRobb"] <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrAsstTot"]  <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrGunAsst"] <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrKnifAsst"] <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrOthWpnAsst"] <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrHandAsst"]  <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrSimAsst"] <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrBurgTotl"]  <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrForcEntry"] <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrEntry"] <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrAttBurg"] <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrLarcTot"]  <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrVhcThftTot"] <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrAutoTheft"] <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrTruckTheft"] <- "October"
+  data.collapse$Month[data.collapse$variable== "OctClrOthVCTheft"] <- "October"
+  data.collapse$Month[data.collapse$variable== "OctTotClear"] <- "October"
+  data.collapse$Month[data.collapse$variable== "NovClrMurd"]  <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrMans"] <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrRapTot"]  <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrForcRap"] <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrAtmpRap"]  <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrRobbTot"] <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrGunRobb"] <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrKnifRobb"] <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrOthWpnRobb"]  <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrStrArmRobb"] <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrAsstTot"] <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrGunAsst"] <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrKnifAsst"]  <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrOthWpnAsst"] <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrHandAsst"]  <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrSimAsst"] <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrBurgTotl"]  <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrForcEntry"] <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrEntry"] <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrAttBurg"] <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrLarcTot"]  <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrVhcThftTot"] <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrAutoTheft"]  <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrTruckTheft"] <- "November"
+  data.collapse$Month[data.collapse$variable== "NovClrOthVCTheft"]  <- "November"
+  data.collapse$Month[data.collapse$variable== "NovTotClear"] <- "November"
+  data.collapse$Month[data.collapse$variable== "DecClrMurd"]<- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrMans"]<- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrRapTot"]<- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrForcRap"]<- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrAtmpRap"]<- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrRobbTot"]<- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrGunRobb"] <- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrKnifRobb"]<- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrOthWpnRobb"] <- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrStrArmRobb"]<- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrAsstTot"]<- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrGunAsst"]<- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrKnifAsst"]<- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrOthWpnAsst"]<- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrHandAsst"]<- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrSimAsst"]<- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrBurgTotl"] <- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrForcEntry"]<- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrEntry"] <- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrAttBurg"]<- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrLarcTot"] <- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrVhcThftTot"]<- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrAutoTheft"]<- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrTruckTheft"]<- "December"
+  data.collapse$Month[data.collapse$variable== "DecClrOthVCTheft"] <- "December"
+  data.collapse$Month[data.collapse$variable== "DecTotClear"]<- "December"
+  
   data.collapse$Month <- as.factor(data.collapse$Month)
   data.collapse$Month <- factor(data.collapse$Month, levels= c("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"))
   # Now recast it back. 
@@ -2143,6 +2949,84 @@ ucr_flip <- function(data) {
   
   data.wide$VioCrime <- data.wide$ActNumMurd + data.wide$ActNumRape + data.wide$ActNumRobb + data.wide$ActNumAsst
   data.wide$VioCrime2 <- data.wide$ActNumMurd + data.wide$ActNumRape + data.wide$ActNumRobb + data.wide$ActNumAsstTwo
+  
+  data.wide$ClrMurd <- data.wide$JanClrMurd + data.wide$FebClrMurd + data.wide$MarClrMurd + data.wide$AprClrMurd + data.wide$MayClrMurd + data.wide$JunClrMurd + data.wide$JulClrMurd + data.wide$AugClrMurd + data.wide$SepClrMurd + data.wide$OctClrMurd + data.wide$NovClrMurd + data.wide$DecClrMurd
+  data.wide$JanClrMurd <- data.wide$FebClrMurd <- data.wide$MarClrMurd <- data.wide$AprClrMurd <- data.wide$MayClrMurd <- data.wide$JunClrMurd <- data.wide$JulClrMurd <- data.wide$AugClrMurd <- data.wide$SepClrMurd <- data.wide$OctClrMurd <- data.wide$NovClrMurd <- data.wide$DecClrMurd <- NULL
+  
+  data.wide$ClrMans <- data.wide$JanClrMans + data.wide$FebClrMans + data.wide$MarClrMans + data.wide$AprClrMans + data.wide$MayClrMans + data.wide$JunClrMans + data.wide$JulClrMans + data.wide$AugClrMans + data.wide$SepClrMans + data.wide$OctClrMans + data.wide$NovClrMans + data.wide$DecClrMans
+  data.wide$JanClrMans <- data.wide$FebClrMans <- data.wide$MarClrMans <- data.wide$AprClrMans <- data.wide$MayClrMans <- data.wide$JunClrMans <- data.wide$JulClrMans <- data.wide$AugClrMans <- data.wide$SepClrMans <- data.wide$OctClrMans <- data.wide$NovClrMans <- data.wide$DecClrMans <- NULL
+  
+  data.wide$ClrRapTot <- data.wide$JanClrRapTot + data.wide$FebClrRapTot + data.wide$MarClrRapTot + data.wide$AprClrRapTot + data.wide$MayClrRapTot + data.wide$JunClrRapTot + data.wide$JulClrRapTot + data.wide$AugClrRapTot + data.wide$SepClrRapTot + data.wide$OctClrRapTot + data.wide$NovClrRapTot + data.wide$DecClrRapTot
+  data.wide$JanClrRapTot <- data.wide$FebClrRapTot <- data.wide$MarClrRapTot <- data.wide$AprClrRapTot <- data.wide$MayClrRapTot <- data.wide$JunClrRapTot <- data.wide$JulClrRapTot <- data.wide$AugClrRapTot <- data.wide$SepClrRapTot <- data.wide$OctClrRapTot <- data.wide$NovClrRapTot <- data.wide$DecClrRapTot <- NULL
+  
+  data.wide$ClrForcRap <- data.wide$JanClrForcRap + data.wide$FebClrForcRap + data.wide$MarClrForcRap + data.wide$AprClrForcRap + data.wide$MayClrForcRap + data.wide$JunClrForcRap + data.wide$JulClrForcRap + data.wide$AugClrForcRap + data.wide$SepClrForcRap + data.wide$OctClrForcRap + data.wide$NovClrForcRap + data.wide$DecClrForcRap
+  data.wide$JanClrForcRap <- data.wide$FebClrForcRap <- data.wide$MarClrForcRap <- data.wide$AprClrForcRap <- data.wide$MayClrForcRap <- data.wide$JunClrForcRap <- data.wide$JulClrForcRap <- data.wide$AugClrForcRap <- data.wide$SepClrForcRap <- data.wide$OctClrForcRap <- data.wide$NovClrForcRap <- data.wide$DecClrForcRap <- NULL
+  
+  data.wide$ClrAtmpRap <- data.wide$JanClrAtmpRap + data.wide$FebClrAtmpRap + data.wide$MarClrAtmpRap + data.wide$AprClrAtmpRap + data.wide$MayClrAtmpRap + data.wide$JunClrAtmpRap + data.wide$JulClrAtmpRap + data.wide$AugClrAtmpRap + data.wide$SepClrAtmpRap + data.wide$OctClrAtmpRap + data.wide$NovClrAtmpRap + data.wide$DecClrAtmpRap
+  data.wide$JanClrAtmpRap <- data.wide$FebClrAtmpRap <- data.wide$MarClrAtmpRap <- data.wide$AprClrAtmpRap <- data.wide$MayClrAtmpRap <- data.wide$JunClrAtmpRap <- data.wide$JulClrAtmpRap <- data.wide$AugClrAtmpRap <- data.wide$SepClrAtmpRap <- data.wide$OctClrAtmpRap <- data.wide$NovClrAtmpRap <- data.wide$DecClrAtmpRap <- NULL
+  
+  data.wide$ClrRobbTot <- data.wide$JanClrRobbTot + data.wide$FebClrRobbTot + data.wide$MarClrRobbTot + data.wide$AprClrRobbTot + data.wide$MayClrRobbTot + data.wide$JunClrRobbTot + data.wide$JulClrRobbTot + data.wide$AugClrRobbTot + data.wide$SepClrRobbTot + data.wide$OctClrRobbTot + data.wide$NovClrRobbTot + data.wide$DecClrRobbTot
+  data.wide$JanClrRobbTot <- data.wide$FebClrRobbTot <- data.wide$MarClrRobbTot <- data.wide$AprClrRobbTot <- data.wide$MayClrRobbTot <- data.wide$JunClrRobbTot <- data.wide$JulClrRobbTot <- data.wide$AugClrRobbTot <- data.wide$SepClrRobbTot <- data.wide$OctClrRobbTot <- data.wide$NovClrRobbTot <- data.wide$DecClrRobbTot <- NULL
+  
+  data.wide$ClrGunRobb <- data.wide$JanClrGunRobb + data.wide$FebClrGunRobb + data.wide$MarClrGunRobb + data.wide$AprClrGunRobb + data.wide$MayClrGunRobb + data.wide$JunClrGunRobb + data.wide$JulClrGunRobb + data.wide$AugClrGunRobb + data.wide$SepClrGunRobb + data.wide$OctClrGunRobb + data.wide$NovClrGunRobb + data.wide$DecClrGunRobb
+  data.wide$JanClrGunRobb <- data.wide$FebClrGunRobb <- data.wide$MarClrGunRobb <- data.wide$AprClrGunRobb <- data.wide$MayClrGunRobb <- data.wide$JunClrGunRobb <- data.wide$JulClrGunRobb <- data.wide$AugClrGunRobb <- data.wide$SepClrGunRobb <- data.wide$OctClrGunRobb <- data.wide$NovClrGunRobb <- data.wide$DecClrGunRobb <- NULL
+  
+  data.wide$ClrKnifRobb <- data.wide$JanClrKnifRobb + data.wide$FebClrKnifRobb + data.wide$MarClrKnifRobb + data.wide$AprClrKnifRobb + data.wide$MayClrKnifRobb + data.wide$JunClrKnifRobb + data.wide$JulClrKnifRobb + data.wide$AugClrKnifRobb + data.wide$SepClrKnifRobb + data.wide$OctClrKnifRobb + data.wide$NovClrKnifRobb + data.wide$DecClrKnifRobb
+  data.wide$JanClrKnifRobb <- data.wide$FebClrKnifRobb <- data.wide$MarClrKnifRobb <- data.wide$AprClrKnifRobb <- data.wide$MayClrKnifRobb <- data.wide$JunClrKnifRobb <- data.wide$JulClrKnifRobb <- data.wide$AugClrKnifRobb <- data.wide$SepClrKnifRobb <- data.wide$OctClrKnifRobb <- data.wide$NovClrKnifRobb <- data.wide$DecClrKnifRobb <- NULL
+  
+  data.wide$ClrOthWpnRobb <- data.wide$JanClrOthWpnRobb + data.wide$FebClrOthWpnRobb + data.wide$MarClrOthWpnRobb + data.wide$AprClrOthWpnRobb + data.wide$MayClrOthWpnRobb + data.wide$JunClrOthWpnRobb + data.wide$JulClrOthWpnRobb + data.wide$AugClrOthWpnRobb + data.wide$SepClrOthWpnRobb + data.wide$OctClrOthWpnRobb + data.wide$NovClrOthWpnRobb + data.wide$DecClrOthWpnRobb
+  data.wide$JanClrOthWpnRobb <- data.wide$FebClrOthWpnRobb <- data.wide$MarClrOthWpnRobb <- data.wide$AprClrOthWpnRobb <- data.wide$MayClrOthWpnRobb <- data.wide$JunClrOthWpnRobb <- data.wide$JulClrOthWpnRobb <- data.wide$AugClrOthWpnRobb <- data.wide$SepClrOthWpnRobb <- data.wide$OctClrOthWpnRobb <- data.wide$NovClrOthWpnRobb <- data.wide$DecClrOthWpnRobb <- NULL
+  
+  data.wide$ClrStrArmRobb <- data.wide$JanClrStrArmRobb + data.wide$FebClrStrArmRobb + data.wide$MarClrStrArmRobb + data.wide$AprClrStrArmRobb + data.wide$MayClrStrArmRobb + data.wide$JunClrStrArmRobb + data.wide$JulClrStrArmRobb + data.wide$AugClrStrArmRobb + data.wide$SepClrStrArmRobb + data.wide$OctClrStrArmRobb + data.wide$NovClrStrArmRobb + data.wide$DecClrStrArmRobb
+  data.wide$JanClrStrArmRobb <- data.wide$FebClrStrArmRobb <- data.wide$MarClrStrArmRobb <- data.wide$AprClrStrArmRobb <- data.wide$MayClrStrArmRobb <- data.wide$JunClrStrArmRobb <- data.wide$JulClrStrArmRobb <- data.wide$AugClrStrArmRobb <- data.wide$SepClrStrArmRobb <- data.wide$OctClrStrArmRobb <- data.wide$NovClrStrArmRobb <- data.wide$DecClrStrArmRobb <- NULL
+  
+  data.wide$ClrAsstTot <- data.wide$JanClrAsstTot + data.wide$FebClrAsstTot + data.wide$MarClrAsstTot + data.wide$AprClrAsstTot + data.wide$MayClrAsstTot + data.wide$JunClrAsstTot + data.wide$JulClrAsstTot + data.wide$AugClrAsstTot + data.wide$SepClrAsstTot + data.wide$OctClrAsstTot + data.wide$NovClrAsstTot + data.wide$DecClrAsstTot
+  data.wide$JanClrAsstTot <- data.wide$FebClrAsstTot <- data.wide$MarClrAsstTot <- data.wide$AprClrAsstTot <- data.wide$MayClrAsstTot <- data.wide$JunClrAsstTot <- data.wide$JulClrAsstTot <- data.wide$AugClrAsstTot <- data.wide$SepClrAsstTot <- data.wide$OctClrAsstTot <- data.wide$NovClrAsstTot <- data.wide$DecClrAsstTot <- NULL
+  
+  data.wide$ClrGunAsst <- data.wide$JanClrGunAsst + data.wide$FebClrGunAsst + data.wide$MarClrGunAsst + data.wide$AprClrGunAsst + data.wide$MayClrGunAsst + data.wide$JunClrGunAsst + data.wide$JulClrGunAsst + data.wide$AugClrGunAsst + data.wide$SepClrGunAsst + data.wide$OctClrGunAsst + data.wide$NovClrGunAsst + data.wide$DecClrGunAsst
+  data.wide$JanClrGunAsst <- data.wide$FebClrGunAsst <- data.wide$MarClrGunAsst <- data.wide$AprClrGunAsst <- data.wide$MayClrGunAsst <- data.wide$JunClrGunAsst <- data.wide$JulClrGunAsst <- data.wide$AugClrGunAsst <- data.wide$SepClrGunAsst <- data.wide$OctClrGunAsst <- data.wide$NovClrGunAsst <- data.wide$DecClrGunAsst <- NULL
+  
+  data.wide$ClrKnifAsst <- data.wide$JanClrKnifAsst + data.wide$FebClrKnifAsst + data.wide$MarClrKnifAsst + data.wide$AprClrKnifAsst + data.wide$MayClrKnifAsst + data.wide$JunClrKnifAsst + data.wide$JulClrKnifAsst + data.wide$AugClrKnifAsst + data.wide$SepClrKnifAsst + data.wide$OctClrKnifAsst + data.wide$NovClrKnifAsst + data.wide$DecClrKnifAsst
+  data.wide$JanClrKnifAsst <- data.wide$FebClrKnifAsst <- data.wide$MarClrKnifAsst <- data.wide$AprClrKnifAsst <- data.wide$MayClrKnifAsst <- data.wide$JunClrKnifAsst <- data.wide$JulClrKnifAsst <- data.wide$AugClrKnifAsst <- data.wide$SepClrKnifAsst <- data.wide$OctClrKnifAsst <- data.wide$NovClrKnifAsst <- data.wide$DecClrKnifAsst <- NULL
+  
+  data.wide$ClrOthWpnAsst <- data.wide$JanClrOthWpnAsst + data.wide$FebClrOthWpnAsst + data.wide$MarClrOthWpnAsst + data.wide$AprClrOthWpnAsst + data.wide$MayClrOthWpnAsst + data.wide$JunClrOthWpnAsst + data.wide$JulClrOthWpnAsst + data.wide$AugClrOthWpnAsst + data.wide$SepClrOthWpnAsst + data.wide$OctClrOthWpnAsst + data.wide$NovClrOthWpnAsst + data.wide$DecClrOthWpnAsst
+  data.wide$JanClrOthWpnAsst <- data.wide$FebClrOthWpnAsst <- data.wide$MarClrOthWpnAsst <- data.wide$AprClrOthWpnAsst <- data.wide$MayClrOthWpnAsst <- data.wide$JunClrOthWpnAsst <- data.wide$JulClrOthWpnAsst <- data.wide$AugClrOthWpnAsst <- data.wide$SepClrOthWpnAsst <- data.wide$OctClrOthWpnAsst <- data.wide$NovClrOthWpnAsst <- data.wide$DecClrOthWpnAsst <- NULL
+  
+  data.wide$ClrHandAsst <- data.wide$JanClrHandAsst + data.wide$FebClrHandAsst + data.wide$MarClrHandAsst + data.wide$AprClrHandAsst + data.wide$MayClrHandAsst + data.wide$JunClrHandAsst + data.wide$JulClrHandAsst + data.wide$AugClrHandAsst + data.wide$SepClrHandAsst + data.wide$OctClrHandAsst + data.wide$NovClrHandAsst + data.wide$DecClrHandAsst
+  data.wide$JanClrHandAsst <- data.wide$FebClrHandAsst <- data.wide$MarClrHandAsst <- data.wide$AprClrHandAsst <- data.wide$MayClrHandAsst <- data.wide$JunClrHandAsst <- data.wide$JulClrHandAsst <- data.wide$AugClrHandAsst <- data.wide$SepClrHandAsst <- data.wide$OctClrHandAsst <- data.wide$NovClrHandAsst <- data.wide$DecClrHandAsst <- NULL
+  
+  data.wide$ClrSimAsst <- data.wide$JanClrSimAsst + data.wide$FebClrSimAsst + data.wide$MarClrSimAsst + data.wide$AprClrSimAsst + data.wide$MayClrSimAsst + data.wide$JunClrSimAsst + data.wide$JulClrSimAsst + data.wide$AugClrSimAsst + data.wide$SepClrSimAsst + data.wide$OctClrSimAsst + data.wide$NovClrSimAsst + data.wide$DecClrSimAsst
+  data.wide$JanClrSimAsst <- data.wide$FebClrSimAsst <- data.wide$MarClrSimAsst <- data.wide$AprClrSimAsst <- data.wide$MayClrSimAsst <- data.wide$JunClrSimAsst <- data.wide$JulClrSimAsst <- data.wide$AugClrSimAsst <- data.wide$SepClrSimAsst <- data.wide$OctClrSimAsst <- data.wide$NovClrSimAsst <- data.wide$DecClrSimAsst <- NULL
+  
+  data.wide$ClrBurgTotl <- data.wide$JanClrBurgTotl + data.wide$FebClrBurgTotl + data.wide$MarClrBurgTotl + data.wide$AprClrBurgTotl + data.wide$MayClrBurgTotl + data.wide$JunClrBurgTotl + data.wide$JulClrBurgTotl + data.wide$AugClrBurgTotl + data.wide$SepClrBurgTotl + data.wide$OctClrBurgTotl + data.wide$NovClrBurgTotl + data.wide$DecClrBurgTotl
+  data.wide$JanClrBurgTotl <- data.wide$FebClrBurgTotl <- data.wide$MarClrBurgTotl <- data.wide$AprClrBurgTotl <- data.wide$MayClrBurgTotl <- data.wide$JunClrBurgTotl <- data.wide$JulClrBurgTotl <- data.wide$AugClrBurgTotl <- data.wide$SepClrBurgTotl <- data.wide$OctClrBurgTotl <- data.wide$NovClrBurgTotl <- data.wide$DecClrBurgTotl <- NULL
+  
+  data.wide$ClrForcEntry <- data.wide$JanClrForcEntry + data.wide$FebClrForcEntry + data.wide$MarClrForcEntry + data.wide$AprClrForcEntry + data.wide$MayClrForcEntry + data.wide$JunClrForcEntry + data.wide$JulClrForcEntry + data.wide$AugClrForcEntry + data.wide$SepClrForcEntry + data.wide$OctClrForcEntry + data.wide$NovClrForcEntry + data.wide$DecClrForcEntry
+  data.wide$JanClrForcEntry <- data.wide$FebClrForcEntry <- data.wide$MarClrForcEntry <- data.wide$AprClrForcEntry <- data.wide$MayClrForcEntry <- data.wide$JunClrForcEntry <- data.wide$JulClrForcEntry <- data.wide$AugClrForcEntry <- data.wide$SepClrForcEntry <- data.wide$OctClrForcEntry <- data.wide$NovClrForcEntry <- data.wide$DecClrForcEntry <- NULL
+  
+  data.wide$ClrEntry <- data.wide$JanClrEntry + data.wide$FebClrEntry + data.wide$MarClrEntry + data.wide$AprClrEntry + data.wide$MayClrEntry + data.wide$JunClrEntry + data.wide$JulClrEntry + data.wide$AugClrEntry + data.wide$SepClrEntry + data.wide$OctClrEntry + data.wide$NovClrEntry + data.wide$DecClrEntry
+  data.wide$JanClrEntry <- data.wide$FebClrEntry <- data.wide$MarClrEntry <- data.wide$AprClrEntry <- data.wide$MayClrEntry <- data.wide$JunClrEntry <- data.wide$JulClrEntry <- data.wide$AugClrEntry <- data.wide$SepClrEntry <- data.wide$OctClrEntry <- data.wide$NovClrEntry <- data.wide$DecClrEntry <- NULL
+  
+  data.wide$ClrAttBurg <- data.wide$JanClrAttBurg + data.wide$FebClrAttBurg + data.wide$MarClrAttBurg + data.wide$AprClrAttBurg + data.wide$MayClrAttBurg + data.wide$JunClrAttBurg + data.wide$JulClrAttBurg + data.wide$AugClrAttBurg + data.wide$SepClrAttBurg + data.wide$OctClrAttBurg + data.wide$NovClrAttBurg + data.wide$DecClrAttBurg
+  data.wide$JanClrAttBurg <- data.wide$FebClrAttBurg <- data.wide$MarClrAttBurg <- data.wide$AprClrAttBurg <- data.wide$MayClrAttBurg <- data.wide$JunClrAttBurg <- data.wide$JulClrAttBurg <- data.wide$AugClrAttBurg <- data.wide$SepClrAttBurg <- data.wide$OctClrAttBurg <- data.wide$NovClrAttBurg <- data.wide$DecClrAttBurg <- NULL
+  
+  data.wide$ClrLarcTot <- data.wide$JanClrLarcTot + data.wide$FebClrLarcTot + data.wide$MarClrLarcTot + data.wide$AprClrLarcTot + data.wide$MayClrLarcTot + data.wide$JunClrLarcTot + data.wide$JulClrLarcTot + data.wide$AugClrLarcTot + data.wide$SepClrLarcTot + data.wide$OctClrLarcTot + data.wide$NovClrLarcTot + data.wide$DecClrLarcTot
+  data.wide$JanClrLarcTot <- data.wide$FebClrLarcTot <- data.wide$MarClrLarcTot <- data.wide$AprClrLarcTot <- data.wide$MayClrLarcTot <- data.wide$JunClrLarcTot <- data.wide$JulClrLarcTot <- data.wide$AugClrLarcTot <- data.wide$SepClrLarcTot <- data.wide$OctClrLarcTot <- data.wide$NovClrLarcTot <- data.wide$DecClrLarcTot <- NULL
+  
+  data.wide$ClrVhcThftTot <- data.wide$JanClrVhcThftTot + data.wide$FebClrVhcThftTot + data.wide$MarClrVhcThftTot + data.wide$AprClrVhcThftTot + data.wide$MayClrVhcThftTot + data.wide$JunClrVhcThftTot + data.wide$JulClrVhcThftTot + data.wide$AugClrVhcThftTot + data.wide$SepClrVhcThftTot + data.wide$OctClrVhcThftTot + data.wide$NovClrVhcThftTot + data.wide$DecClrVhcThftTot
+  data.wide$JanClrVhcThftTot <- data.wide$FebClrVhcThftTot <- data.wide$MarClrVhcThftTot <- data.wide$AprClrVhcThftTot <- data.wide$MayClrVhcThftTot <- data.wide$JunClrVhcThftTot <- data.wide$JulClrVhcThftTot <- data.wide$AugClrVhcThftTot <- data.wide$SepClrVhcThftTot <- data.wide$OctClrVhcThftTot <- data.wide$NovClrVhcThftTot <- data.wide$DecClrVhcThftTot <- NULL
+  
+  data.wide$ClrAutoTheft <- data.wide$JanClrAutoTheft + data.wide$FebClrAutoTheft + data.wide$MarClrAutoTheft + data.wide$AprClrAutoTheft + data.wide$MayClrAutoTheft + data.wide$JunClrAutoTheft + data.wide$JulClrAutoTheft + data.wide$AugClrAutoTheft + data.wide$SepClrAutoTheft + data.wide$OctClrAutoTheft + data.wide$NovClrAutoTheft + data.wide$DecClrAutoTheft
+  data.wide$JanClrAutoTheft <- data.wide$FebClrAutoTheft <- data.wide$MarClrAutoTheft <- data.wide$AprClrAutoTheft <- data.wide$MayClrAutoTheft <- data.wide$JunClrAutoTheft <- data.wide$JulClrAutoTheft <- data.wide$AugClrAutoTheft <- data.wide$SepClrAutoTheft <- data.wide$OctClrAutoTheft <- data.wide$NovClrAutoTheft <- data.wide$DecClrAutoTheft <- NULL
+  
+  data.wide$ClrTruckTheft <- data.wide$JanClrTruckTheft + data.wide$FebClrTruckTheft + data.wide$MarClrTruckTheft + data.wide$AprClrTruckTheft + data.wide$MayClrTruckTheft + data.wide$JunClrTruckTheft + data.wide$JulClrTruckTheft + data.wide$AugClrTruckTheft + data.wide$SepClrTruckTheft + data.wide$OctClrTruckTheft + data.wide$NovClrTruckTheft + data.wide$DecClrTruckTheft
+  data.wide$JanClrTruckTheft <- data.wide$FebClrTruckTheft <- data.wide$MarClrTruckTheft <- data.wide$AprClrTruckTheft <- data.wide$MayClrTruckTheft <- data.wide$JunClrTruckTheft <- data.wide$JulClrTruckTheft <- data.wide$AugClrTruckTheft <- data.wide$SepClrTruckTheft <- data.wide$OctClrTruckTheft <- data.wide$NovClrTruckTheft <- data.wide$DecClrTruckTheft <- NULL
+  
+  data.wide$ClrOthVCTheft <- data.wide$JanClrOthVCTheft + data.wide$FebClrOthVCTheft + data.wide$MarClrOthVCTheft + data.wide$AprClrOthVCTheft + data.wide$MayClrOthVCTheft + data.wide$JunClrOthVCTheft + data.wide$JulClrOthVCTheft + data.wide$AugClrOthVCTheft + data.wide$SepClrOthVCTheft + data.wide$OctClrOthVCTheft + data.wide$NovClrOthVCTheft + data.wide$DecClrOthVCTheft
+  data.wide$JanClrOthVCTheft <- data.wide$FebClrOthVCTheft <- data.wide$MarClrOthVCTheft <- data.wide$AprClrOthVCTheft <- data.wide$MayClrOthVCTheft <- data.wide$JunClrOthVCTheft <- data.wide$JulClrOthVCTheft <- data.wide$AugClrOthVCTheft <- data.wide$SepClrOthVCTheft <- data.wide$OctClrOthVCTheft <- data.wide$NovClrOthVCTheft <- data.wide$DecClrOthVCTheft <- NULL
+  
+  data.wide$TotClear <- data.wide$JanTotClear + data.wide$FebTotClear + data.wide$MarTotClear + data.wide$AprTotClear + data.wide$MayTotClear + data.wide$JunTotClear + data.wide$JulTotClear + data.wide$AugTotClear + data.wide$SepTotClear + data.wide$OctTotClear + data.wide$NovTotClear + data.wide$DecTotClear
+  data.wide$JanTotClear <- data.wide$FebTotClear <- data.wide$MarTotClear <- data.wide$AprTotClear <- data.wide$MayTotClear <- data.wide$JunTotClear <- data.wide$JulTotClear <- data.wide$AugTotClear <- data.wide$SepTotClear <- data.wide$OctTotClear <- data.wide$NovTotClear <- data.wide$DecTotClear <- NULL
   
   names(data.wide)[names(data.wide) == 'V2'] <- 'State'
   return(data.wide)
@@ -2757,163 +3641,163 @@ na_set <- function(FinalData){
   FinalData$Population[FinalData$State=="Vermont" & FinalData$Year==2001] <- NA
   FinalData$OfficerPer1000[FinalData$State=="Vermont" & FinalData$Year==2001] <- NA
   
-  #West Virginia, 2001 & FinalData$Month=="July"
-  FinalData$CategorySum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$AssaultsTwo[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$AssaultsThree[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$KilledFelony[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$KilledTot[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$KilledAccident[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$AssaultGunSum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$AssaultClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$AssaultCivDisorder[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$AssaultSusPerson[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$AssaultDisturbCall[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$AssaultBurglaries[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$AssaultRobberies[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$AssaultOther[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$AssaultInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$AssaultNoInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$AssaultInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$AssaultNoInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$AssaultGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$CivGuns[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$AssaultNoInjClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$CivClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$TotalEmployees[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$Population[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  FinalData$OfficerPer1000[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
-  #West Virginia, 2001 & FinalData$Month=="August"
-  FinalData$CategorySum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$AssaultsTwo[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$AssaultsThree[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$KilledFelony[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$KilledTot[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$KilledAccident[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$AssaultGunSum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$AssaultClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$AssaultCivDisorder[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$AssaultSusPerson[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$AssaultDisturbCall[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$AssaultBurglaries[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$AssaultRobberies[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$AssaultOther[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$AssaultInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$AssaultNoInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$AssaultInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$AssaultNoInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$AssaultGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$CivGuns[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$AssaultNoInjClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$CivClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$TotalEmployees[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$Population[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  FinalData$OfficerPer1000[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
-  #West Virginia, 2001 & FinalData$Month=="September"
-  FinalData$CategorySum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$AssaultsTwo[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$AssaultsThree[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$KilledFelony[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$KilledTot[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$KilledAccident[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$AssaultGunSum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$AssaultClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$AssaultCivDisorder[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$AssaultSusPerson[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$AssaultDisturbCall[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$AssaultBurglaries[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$AssaultRobberies[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$AssaultOther[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$AssaultInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$AssaultNoInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$AssaultInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$AssaultNoInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$AssaultGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$CivGuns[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$AssaultNoInjClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$CivClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$TotalEmployees[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$Population[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  FinalData$OfficerPer1000[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
-  #West Virginia, 2001 & FinalData$Month=="October"
-  FinalData$CategorySum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$AssaultsTwo[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$AssaultsThree[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$KilledFelony[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$KilledTot[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$KilledAccident[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$AssaultGunSum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$AssaultClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$AssaultCivDisorder[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$AssaultSusPerson[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$AssaultDisturbCall[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$AssaultBurglaries[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$AssaultRobberies[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$AssaultOther[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$AssaultInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$AssaultNoInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$AssaultInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$AssaultNoInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$AssaultGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$CivGuns[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$AssaultNoInjClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$CivClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$TotalEmployees[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$Population[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  FinalData$OfficerPer1000[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
-  #West Virginia, 2001 & FinalData$Month=="November"
-  FinalData$CategorySum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$AssaultsTwo[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$AssaultsThree[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$KilledFelony[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$KilledTot[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$KilledAccident[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$AssaultGunSum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$AssaultClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$AssaultCivDisorder[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$AssaultSusPerson[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$AssaultDisturbCall[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$AssaultBurglaries[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$AssaultRobberies[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$AssaultOther[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$AssaultInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$AssaultNoInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$AssaultInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$AssaultNoInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$AssaultGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$CivGuns[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$AssaultNoInjClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$CivClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$TotalEmployees[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$Population[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  FinalData$OfficerPer1000[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
-  #West Virginia, 2001 & FinalData$Month=="December"
-  FinalData$CategorySum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$AssaultsTwo[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$AssaultsThree[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$KilledFelony[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$KilledTot[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$KilledAccident[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$AssaultGunSum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$AssaultClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$AssaultCivDisorder[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$AssaultSusPerson[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$AssaultDisturbCall[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$AssaultBurglaries[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$AssaultRobberies[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$AssaultOther[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$AssaultInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$AssaultNoInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$AssaultInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$AssaultNoInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$AssaultGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$CivGuns[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$AssaultNoInjClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$CivClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$TotalEmployees[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$Population[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  FinalData$OfficerPer1000[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
-  
+#   #West Virginia, 2001 & FinalData$Month=="July"
+#   FinalData$CategorySum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$AssaultsTwo[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$AssaultsThree[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$KilledFelony[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$KilledTot[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$KilledAccident[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$AssaultGunSum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$AssaultClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$AssaultCivDisorder[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$AssaultSusPerson[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$AssaultDisturbCall[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$AssaultBurglaries[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$AssaultRobberies[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$AssaultOther[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$AssaultInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$AssaultNoInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$AssaultInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$AssaultNoInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$AssaultGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$CivGuns[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$AssaultNoInjClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$CivClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$TotalEmployees[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$Population[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   FinalData$OfficerPer1000[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="July"] <- NA
+#   #West Virginia, 2001 & FinalData$Month=="August"
+#   FinalData$CategorySum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$AssaultsTwo[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$AssaultsThree[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$KilledFelony[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$KilledTot[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$KilledAccident[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$AssaultGunSum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$AssaultClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$AssaultCivDisorder[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$AssaultSusPerson[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$AssaultDisturbCall[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$AssaultBurglaries[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$AssaultRobberies[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$AssaultOther[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$AssaultInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$AssaultNoInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$AssaultInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$AssaultNoInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$AssaultGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$CivGuns[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$AssaultNoInjClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$CivClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$TotalEmployees[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$Population[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   FinalData$OfficerPer1000[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="August"] <- NA
+#   #West Virginia, 2001 & FinalData$Month=="September"
+#   FinalData$CategorySum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$AssaultsTwo[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$AssaultsThree[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$KilledFelony[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$KilledTot[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$KilledAccident[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$AssaultGunSum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$AssaultClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$AssaultCivDisorder[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$AssaultSusPerson[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$AssaultDisturbCall[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$AssaultBurglaries[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$AssaultRobberies[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$AssaultOther[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$AssaultInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$AssaultNoInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$AssaultInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$AssaultNoInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$AssaultGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$CivGuns[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$AssaultNoInjClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$CivClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$TotalEmployees[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$Population[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   FinalData$OfficerPer1000[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="September"] <- NA
+#   #West Virginia, 2001 & FinalData$Month=="October"
+#   FinalData$CategorySum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$AssaultsTwo[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$AssaultsThree[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$KilledFelony[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$KilledTot[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$KilledAccident[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$AssaultGunSum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$AssaultClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$AssaultCivDisorder[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$AssaultSusPerson[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$AssaultDisturbCall[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$AssaultBurglaries[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$AssaultRobberies[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$AssaultOther[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$AssaultInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$AssaultNoInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$AssaultInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$AssaultNoInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$AssaultGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$CivGuns[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$AssaultNoInjClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$CivClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$TotalEmployees[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$Population[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   FinalData$OfficerPer1000[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="October"] <- NA
+#   #West Virginia, 2001 & FinalData$Month=="November"
+#   FinalData$CategorySum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$AssaultsTwo[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$AssaultsThree[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$KilledFelony[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$KilledTot[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$KilledAccident[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$AssaultGunSum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$AssaultClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$AssaultCivDisorder[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$AssaultSusPerson[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$AssaultDisturbCall[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$AssaultBurglaries[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$AssaultRobberies[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$AssaultOther[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$AssaultInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$AssaultNoInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$AssaultInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$AssaultNoInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$AssaultGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$CivGuns[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$AssaultNoInjClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$CivClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$TotalEmployees[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$Population[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   FinalData$OfficerPer1000[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="November"] <- NA
+#   #West Virginia, 2001 & FinalData$Month=="December"
+#   FinalData$CategorySum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$AssaultsTwo[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$AssaultsThree[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$KilledFelony[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$KilledTot[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$KilledAccident[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$AssaultGunSum[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$AssaultClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$AssaultCivDisorder[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$AssaultSusPerson[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$AssaultDisturbCall[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$AssaultBurglaries[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$AssaultRobberies[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$AssaultOther[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$AssaultInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$AssaultNoInjuryToT[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$AssaultInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$AssaultNoInjGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$AssaultGun[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$CivGuns[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$AssaultNoInjClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$CivClose[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$TotalEmployees[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$Population[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   FinalData$OfficerPer1000[FinalData$State=="West Virginia" & FinalData$Year==2001 & FinalData$Month=="December"] <- NA
+#   
   #Illinois also did not , nor did Kansas.
   FinalData$CategorySum[FinalData$State=="Illinois" & FinalData$Year==2002] <- NA
   FinalData$AssaultsTwo[FinalData$State=="Illinois" & FinalData$Year==2002] <- NA
@@ -3747,7 +4631,61 @@ na_set <- function(FinalData){
   FinalData$VioCrime2[FinalData$State=="Florida"] <- NA
   FinalData$Population[FinalData$State=="Florida"] <- NA
   FinalData$ViCrimePop[FinalData$State=="Florida"] <- NA
-  #Rhode Island,2003
+FinalData$ClrMurd[FinalData$State=="Florida"]  <- NA
+FinalData$ClrMans[FinalData$State=="Florida"]  <- NA
+FinalData$ClrRapTot[FinalData$State=="Florida"] <- NA
+FinalData$ClrForcRap[FinalData$State=="Florida"]  <- NA
+FinalData$ClrAtmpRap[FinalData$State=="Florida"]  <- NA
+FinalData$ClrRobbTot[FinalData$State=="Florida"]  <- NA
+FinalData$ClrGunRobb[FinalData$State=="Florida"] <- NA
+FinalData$ClrKnifRobb[FinalData$State=="Florida"]  <- NA
+FinalData$ClrOthWpnRobb[FinalData$State=="Florida"]  <- NA
+FinalData$ClrStrArmRobb[FinalData$State=="Florida"]  <- NA
+FinalData$ClrAsstTot[FinalData$State=="Florida"] <- NA
+FinalData$ClrGunAsst[FinalData$State=="Florida"]  <- NA
+FinalData$ClrKnifAsst[FinalData$State=="Florida"]  <- NA
+FinalData$ClrOthWpnAsst[FinalData$State=="Florida"]  <- NA
+FinalData$ClrHandAsst[FinalData$State=="Florida"]  <- NA
+FinalData$ClrSimAsst[FinalData$State=="Florida"]  <- NA
+FinalData$ClrBurgTotl[FinalData$State=="Florida"] <- NA
+FinalData$ClrForcEntry[FinalData$State=="Florida"]  <- NA
+FinalData$ClrEntry[FinalData$State=="Florida"] <- NA
+FinalData$ClrAttBurg[FinalData$State=="Florida"]  <- NA
+FinalData$ClrLarcTot[FinalData$State=="Florida"] <- NA
+FinalData$ClrVhcThftTot[FinalData$State=="Florida"]  <- NA
+FinalData$ClrAutoTheft[FinalData$State=="Florida"] <- NA
+FinalData$ClrTruckTheft[FinalData$State=="Florida"]  <- NA
+FinalData$ClrOthVCTheft[FinalData$State=="Florida"]  <- NA
+FinalData$TotClear[FinalData$State=="Florida"]  <- NA
+
+FinalData$ClrMurd[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+FinalData$ClrMans[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+FinalData$ClrRapTot[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+FinalData$ClrForcRap[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+FinalData$ClrAtmpRap[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+FinalData$ClrRobbTot[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+FinalData$ClrGunRobb[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+FinalData$ClrKnifRobb[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+FinalData$ClrOthWpnRobb[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+FinalData$ClrStrArmRobb[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+FinalData$ClrAsstTot[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+FinalData$ClrGunAsst[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+FinalData$ClrKnifAsst[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+FinalData$ClrOthWpnAsst[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+FinalData$ClrHandAsst[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+FinalData$ClrSimAsst[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+FinalData$ClrBurgTotl[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+FinalData$ClrForcEntry[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+FinalData$ClrEntry[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+FinalData$ClrAttBurg[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+FinalData$ClrLarcTot[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+FinalData$ClrVhcThftTot[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+FinalData$ClrAutoTheft[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+FinalData$ClrTruckTheft[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+FinalData$ClrOthVCTheft[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+FinalData$TotClear[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+
+#Rhode Island,2003
   FinalData$ActNumMurd[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
   FinalData$ActNumRape[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
   FinalData$ActNumRobb[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
@@ -3795,7 +4733,33 @@ na_set <- function(FinalData){
   FinalData$VioCrime2[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
   FinalData$Population[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
   FinalData$ViCrimePop[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
-  
+FinalData$ClrMurd[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+FinalData$ClrMans[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+FinalData$ClrRapTot[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+FinalData$ClrForcRap[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+FinalData$ClrAtmpRap[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+FinalData$ClrRobbTot[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+FinalData$ClrGunRobb[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+FinalData$ClrKnifRobb[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+FinalData$ClrOthWpnRobb[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+FinalData$ClrStrArmRobb[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+FinalData$ClrAsstTot[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+FinalData$ClrGunAsst[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+FinalData$ClrKnifAsst[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+FinalData$ClrOthWpnAsst[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+FinalData$ClrHandAsst[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+FinalData$ClrSimAsst[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+FinalData$ClrBurgTotl[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+FinalData$ClrForcEntry[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+FinalData$ClrEntry[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+FinalData$ClrAttBurg[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+FinalData$ClrLarcTot[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+FinalData$ClrVhcThftTot[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+FinalData$ClrAutoTheft[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+FinalData$ClrTruckTheft[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+FinalData$ClrOthVCTheft[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+FinalData$TotClear[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+
   #LABOR MISSINGS
   FinalData$civil_noninstitutionalpop[FinalData$State=="Guam" & FinalData$Year==1998] <- NA
   FinalData$civil_noninstitutionalpop[FinalData$State=="Canal Zone" & FinalData$Year==1998] <- NA
@@ -3857,7 +4821,32 @@ na_set <- function(FinalData){
   FinalData$TotalEmployees[FinalData$Year<1998] <- NA
   FinalData$Population[FinalData$Year<1998] <- NA
   FinalData$OfficerPer1000[FinalData$Year<1998] <- NA
-  
+FinalData$ClrMurd[FinalData$Year<1998]  <- NA
+FinalData$ClrMans[FinalData$Year<1998]  <- NA
+FinalData$ClrRapTot[FinalData$Year<1998] <- NA
+FinalData$ClrForcRap[FinalData$Year<1998]  <- NA
+FinalData$ClrAtmpRap[FinalData$Year<1998]  <- NA
+FinalData$ClrRobbTot[FinalData$Year<1998]  <- NA
+FinalData$ClrGunRobb[FinalData$Year<1998] <- NA
+FinalData$ClrKnifRobb[FinalData$Year<1998]  <- NA
+FinalData$ClrOthWpnRobb[FinalData$Year<1998]  <- NA
+FinalData$ClrStrArmRobb[FinalData$Year<1998]  <- NA
+FinalData$ClrAsstTot[FinalData$Year<1998] <- NA
+FinalData$ClrGunAsst[FinalData$Year<1998]  <- NA
+FinalData$ClrKnifAsst[FinalData$Year<1998]  <- NA
+FinalData$ClrOthWpnAsst[FinalData$Year<1998]  <- NA
+FinalData$ClrHandAsst[FinalData$Year<1998]  <- NA
+FinalData$ClrSimAsst[FinalData$Year<1998]  <- NA
+FinalData$ClrBurgTotl[FinalData$Year<1998] <- NA
+FinalData$ClrForcEntry[FinalData$Year<1998]  <- NA
+FinalData$ClrEntry[FinalData$Year<1998] <- NA
+FinalData$ClrAttBurg[FinalData$Year<1998]  <- NA
+FinalData$ClrLarcTot[FinalData$Year<1998] <- NA
+FinalData$ClrVhcThftTot[FinalData$Year<1998]  <- NA
+FinalData$ClrAutoTheft[FinalData$Year<1998] <- NA
+FinalData$ClrTruckTheft[FinalData$Year<1998]  <- NA
+FinalData$ClrOthVCTheft[FinalData$Year<1998]  <- NA
+FinalData$TotClear[FinalData$Year<1998]  <- NA
   FinalData$wnhm[FinalData$Year<1998] <- NA
   FinalData$bnhm[FinalData$Year<1998] <- NA
   FinalData$ainhm[FinalData$Year<1998] <- NA
@@ -3904,11 +4893,63 @@ na_set <- function(FinalData){
   FinalData$female_perc[FinalData$Year>2014] <- NA
   FinalData$male_perc[FinalData$Year>2014] <- NA
   FinalData$black_perc[FinalData$Year>2014] <- NA
-  
+FinalData$ClrMurd[FinalData$Year>2014]  <- NA
+FinalData$ClrMans[FinalData$Year>2014]  <- NA
+FinalData$ClrRapTot[FinalData$Year>2014] <- NA
+FinalData$ClrForcRap[FinalData$Year>2014]  <- NA
+FinalData$ClrAtmpRap[FinalData$Year>2014]  <- NA
+FinalData$ClrRobbTot[FinalData$Year>2014]  <- NA
+FinalData$ClrGunRobb[FinalData$Year>2014] <- NA
+FinalData$ClrKnifRobb[FinalData$Year>2014]  <- NA
+FinalData$ClrOthWpnRobb[FinalData$Year>2014]  <- NA
+FinalData$ClrStrArmRobb[FinalData$Year>2014]  <- NA
+FinalData$ClrAsstTot[FinalData$Year>2014] <- NA
+FinalData$ClrGunAsst[FinalData$Year>2014]  <- NA
+FinalData$ClrKnifAsst[FinalData$Year>2014]  <- NA
+FinalData$ClrOthWpnAsst[FinalData$Year>2014]  <- NA
+FinalData$ClrHandAsst[FinalData$Year>2014]  <- NA
+FinalData$ClrSimAsst[FinalData$Year>2014]  <- NA
+FinalData$ClrBurgTotl[FinalData$Year>2014] <- NA
+FinalData$ClrForcEntry[FinalData$Year>2014]  <- NA
+FinalData$ClrEntry[FinalData$Year>2014] <- NA
+FinalData$ClrAttBurg[FinalData$Year>2014]  <- NA
+FinalData$ClrLarcTot[FinalData$Year>2014] <- NA
+FinalData$ClrVhcThftTot[FinalData$Year>2014]  <- NA
+FinalData$ClrAutoTheft[FinalData$Year>2014] <- NA
+FinalData$ClrTruckTheft[FinalData$Year>2014]  <- NA
+FinalData$ClrOthVCTheft[FinalData$Year>2014]  <- NA
+FinalData$TotClear[FinalData$Year>2014]  <- NA
+
   FinalData$MedianIncome[FinalData$Year<1998] <- NA
   FinalData$MedianIncome[FinalData$Year>2014] <- NA
+FinalData$ClrMurd[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrMans[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrRapTot[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrForcRap[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrAtmpRap[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrRobbTot[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrGunRobb[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrKnifRobb[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrOthWpnRobb[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrStrArmRobb[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrAsstTot[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrGunAsst[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrKnifAsst[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrOthWpnAsst[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrHandAsst[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrSimAsst[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrBurgTotl[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrForcEntry[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrEntry[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrAttBurg[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrLarcTot[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrVhcThftTot[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrAutoTheft[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrTruckTheft[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$ClrOthVCTheft[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+FinalData$TotClear[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
   FinalData$MedianIncome[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
-  
+FinalData$wnhm[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
   FinalData$wnhm[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
   FinalData$bnhm[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
   FinalData$ainhm[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
@@ -4083,4 +5124,661 @@ na_set <- function(FinalData){
   FinalData$ViCrimePop[FinalData$Year==2015] <- NA
   FinalData$ViCrimePop[FinalData$ViCrimePop==0] <- NA
   return(FinalData)  
+}
+na_nonzero_set <- function(FinalData){
+    #Virgin Islands has no assault data.
+    FinalData$CategorySum[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$AssaultsTwo[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$AssaultsThree[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$KilledFelony[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$KilledTot[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$KilledAccident[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$AssaultGunSum[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$AssaultClose[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$AssaultCivDisorder[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$AssaultSusPerson[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$AssaultDisturbCall[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$AssaultBurglaries[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$AssaultRobberies[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$AssaultOther[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$AssaultInjuryToT[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$AssaultNoInjuryToT[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$AssaultInjGun[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$AssaultNoInjGun[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$AssaultGun[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$CivGuns[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$AssaultNoInjClose[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$CivClose[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$TotalEmployees[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$Population[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$OfficerPer1000[FinalData$State=="Virgin Islands"] <- NA
+    FinalData$ClrMurd[FinalData$State=="Florida"]  <- NA
+    FinalData$ClrMans[FinalData$State=="Florida"]  <- NA
+    FinalData$ClrRapTot[FinalData$State=="Florida"] <- NA
+    FinalData$ClrForcRap[FinalData$State=="Florida"]  <- NA
+    FinalData$ClrAtmpRap[FinalData$State=="Florida"]  <- NA
+    FinalData$ClrRobbTot[FinalData$State=="Florida"]  <- NA
+    FinalData$ClrGunRobb[FinalData$State=="Florida"] <- NA
+    FinalData$ClrKnifRobb[FinalData$State=="Florida"]  <- NA
+    FinalData$ClrOthWpnRobb[FinalData$State=="Florida"]  <- NA
+    FinalData$ClrStrArmRobb[FinalData$State=="Florida"]  <- NA
+    FinalData$ClrAsstTot[FinalData$State=="Florida"] <- NA
+    FinalData$ClrGunAsst[FinalData$State=="Florida"]  <- NA
+    FinalData$ClrKnifAsst[FinalData$State=="Florida"]  <- NA
+    FinalData$ClrOthWpnAsst[FinalData$State=="Florida"]  <- NA
+    FinalData$ClrHandAsst[FinalData$State=="Florida"]  <- NA
+    FinalData$ClrSimAsst[FinalData$State=="Florida"]  <- NA
+    FinalData$ClrBurgTotl[FinalData$State=="Florida"] <- NA
+    FinalData$ClrForcEntry[FinalData$State=="Florida"]  <- NA
+    FinalData$ClrEntry[FinalData$State=="Florida"] <- NA
+    FinalData$ClrAttBurg[FinalData$State=="Florida"]  <- NA
+    FinalData$ClrLarcTot[FinalData$State=="Florida"] <- NA
+    FinalData$ClrVhcThftTot[FinalData$State=="Florida"]  <- NA
+    FinalData$ClrAutoTheft[FinalData$State=="Florida"] <- NA
+    FinalData$ClrTruckTheft[FinalData$State=="Florida"]  <- NA
+    FinalData$ClrOthVCTheft[FinalData$State=="Florida"]  <- NA
+    FinalData$TotClear[FinalData$State=="Florida"]  <- NA
+    
+    FinalData$ClrMurd[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+    FinalData$ClrMans[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+    FinalData$ClrRapTot[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$ClrForcRap[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+    FinalData$ClrAtmpRap[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+    FinalData$ClrRobbTot[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+    FinalData$ClrGunRobb[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$ClrKnifRobb[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+    FinalData$ClrOthWpnRobb[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+    FinalData$ClrStrArmRobb[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+    FinalData$ClrAsstTot[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$ClrGunAsst[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+    FinalData$ClrKnifAsst[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+    FinalData$ClrOthWpnAsst[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+    FinalData$ClrHandAsst[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+    FinalData$ClrSimAsst[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+    FinalData$ClrBurgTotl[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$ClrForcEntry[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+    FinalData$ClrEntry[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$ClrAttBurg[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+    FinalData$ClrLarcTot[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$ClrVhcThftTot[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+    FinalData$ClrAutoTheft[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$ClrTruckTheft[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+    FinalData$ClrOthVCTheft[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+    FinalData$TotClear[FinalData$State=="Rhode Island" & FinalData$Year==2003]  <- NA
+    
+    FinalData$ClrMurd[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+    FinalData$ClrMans[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+    FinalData$ClrRapTot[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$ClrForcRap[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+    FinalData$ClrAtmpRap[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+    FinalData$ClrRobbTot[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+    FinalData$ClrGunRobb[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$ClrKnifRobb[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+    FinalData$ClrOthWpnRobb[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+    FinalData$ClrStrArmRobb[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+    FinalData$ClrAsstTot[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$ClrGunAsst[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+    FinalData$ClrKnifAsst[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+    FinalData$ClrOthWpnAsst[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+    FinalData$ClrHandAsst[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+    FinalData$ClrSimAsst[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+    FinalData$ClrBurgTotl[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$ClrForcEntry[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+    FinalData$ClrEntry[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$ClrAttBurg[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+    FinalData$ClrLarcTot[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$ClrVhcThftTot[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+    FinalData$ClrAutoTheft[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$ClrTruckTheft[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+    FinalData$ClrOthVCTheft[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+    FinalData$TotClear[FinalData$State=="Rhode Island" & FinalData$Year==2004]  <- NA
+    
+    FinalData$ClrMurd[FinalData$Year<1998]  <- NA
+    FinalData$ClrMans[FinalData$Year<1998]  <- NA
+    FinalData$ClrRapTot[FinalData$Year<1998] <- NA
+    FinalData$ClrForcRap[FinalData$Year<1998]  <- NA
+    FinalData$ClrAtmpRap[FinalData$Year<1998]  <- NA
+    FinalData$ClrRobbTot[FinalData$Year<1998]  <- NA
+    FinalData$ClrGunRobb[FinalData$Year<1998] <- NA
+    FinalData$ClrKnifRobb[FinalData$Year<1998]  <- NA
+    FinalData$ClrOthWpnRobb[FinalData$Year<1998]  <- NA
+    FinalData$ClrStrArmRobb[FinalData$Year<1998]  <- NA
+    FinalData$ClrAsstTot[FinalData$Year<1998] <- NA
+    FinalData$ClrGunAsst[FinalData$Year<1998]  <- NA
+    FinalData$ClrKnifAsst[FinalData$Year<1998]  <- NA
+    FinalData$ClrOthWpnAsst[FinalData$Year<1998]  <- NA
+    FinalData$ClrHandAsst[FinalData$Year<1998]  <- NA
+    FinalData$ClrSimAsst[FinalData$Year<1998]  <- NA
+    FinalData$ClrBurgTotl[FinalData$Year<1998] <- NA
+    FinalData$ClrForcEntry[FinalData$Year<1998]  <- NA
+    FinalData$ClrEntry[FinalData$Year<1998] <- NA
+    FinalData$ClrAttBurg[FinalData$Year<1998]  <- NA
+    FinalData$ClrLarcTot[FinalData$Year<1998] <- NA
+    FinalData$ClrVhcThftTot[FinalData$Year<1998]  <- NA
+    FinalData$ClrAutoTheft[FinalData$Year<1998] <- NA
+    FinalData$ClrTruckTheft[FinalData$Year<1998]  <- NA
+    FinalData$ClrOthVCTheft[FinalData$Year<1998]  <- NA
+    FinalData$TotClear[FinalData$Year<1998]  <- NA
+    FinalData$ClrMurd[FinalData$Year>2014]  <- NA
+    FinalData$ClrMans[FinalData$Year>2014]  <- NA
+    FinalData$ClrRapTot[FinalData$Year>2014] <- NA
+    FinalData$ClrForcRap[FinalData$Year>2014]  <- NA
+    FinalData$ClrAtmpRap[FinalData$Year>2014]  <- NA
+    FinalData$ClrRobbTot[FinalData$Year>2014]  <- NA
+    FinalData$ClrGunRobb[FinalData$Year>2014] <- NA
+    FinalData$ClrKnifRobb[FinalData$Year>2014]  <- NA
+    FinalData$ClrOthWpnRobb[FinalData$Year>2014]  <- NA
+    FinalData$ClrStrArmRobb[FinalData$Year>2014]  <- NA
+    FinalData$ClrAsstTot[FinalData$Year>2014] <- NA
+    FinalData$ClrGunAsst[FinalData$Year>2014]  <- NA
+    FinalData$ClrKnifAsst[FinalData$Year>2014]  <- NA
+    FinalData$ClrOthWpnAsst[FinalData$Year>2014]  <- NA
+    FinalData$ClrHandAsst[FinalData$Year>2014]  <- NA
+    FinalData$ClrSimAsst[FinalData$Year>2014]  <- NA
+    FinalData$ClrBurgTotl[FinalData$Year>2014] <- NA
+    FinalData$ClrForcEntry[FinalData$Year>2014]  <- NA
+    FinalData$ClrEntry[FinalData$Year>2014] <- NA
+    FinalData$ClrAttBurg[FinalData$Year>2014]  <- NA
+    FinalData$ClrLarcTot[FinalData$Year>2014] <- NA
+    FinalData$ClrVhcThftTot[FinalData$Year>2014]  <- NA
+    FinalData$ClrAutoTheft[FinalData$Year>2014] <- NA
+    FinalData$ClrTruckTheft[FinalData$Year>2014]  <- NA
+    FinalData$ClrOthVCTheft[FinalData$Year>2014]  <- NA
+    FinalData$TotClear[FinalData$Year>2014]  <- NA
+    
+    #Canal Zone has no assault data.
+    FinalData$CategorySum[FinalData$State=="Canal Zone"] <- NA
+    FinalData$AssaultsTwo[FinalData$State=="Canal Zone"] <- NA
+    FinalData$AssaultsThree[FinalData$State=="Canal Zone"] <- NA
+    FinalData$KilledFelony[FinalData$State=="Canal Zone"] <- NA
+    FinalData$KilledTot[FinalData$State=="Canal Zone"] <- NA
+    FinalData$KilledAccident[FinalData$State=="Canal Zone"] <- NA
+    FinalData$AssaultGunSum[FinalData$State=="Canal Zone"] <- NA
+    FinalData$AssaultClose[FinalData$State=="Canal Zone"] <- NA
+    FinalData$AssaultCivDisorder[FinalData$State=="Canal Zone"] <- NA
+    FinalData$AssaultSusPerson[FinalData$State=="Canal Zone"] <- NA
+    FinalData$AssaultDisturbCall[FinalData$State=="Canal Zone"] <- NA
+    FinalData$AssaultBurglaries[FinalData$State=="Canal Zone"] <- NA
+    FinalData$AssaultRobberies[FinalData$State=="Canal Zone"] <- NA
+    FinalData$AssaultOther[FinalData$State=="Canal Zone"] <- NA
+    FinalData$AssaultInjuryToT[FinalData$State=="Canal Zone"] <- NA
+    FinalData$AssaultNoInjuryToT[FinalData$State=="Canal Zone"] <- NA
+    FinalData$AssaultInjGun[FinalData$State=="Canal Zone"] <- NA
+    FinalData$AssaultNoInjGun[FinalData$State=="Canal Zone"] <- NA
+    FinalData$AssaultGun[FinalData$State=="Canal Zone"] <- NA
+    FinalData$CivGuns[FinalData$State=="Canal Zone"] <- NA
+    FinalData$AssaultNoInjClose[FinalData$State=="Canal Zone"] <- NA
+    FinalData$CivClose[FinalData$State=="Canal Zone"] <- NA
+    FinalData$TotalEmployees[FinalData$State=="Canal Zone"] <- NA
+    FinalData$Population[FinalData$State=="Canal Zone"] <- NA
+    FinalData$OfficerPer1000[FinalData$State=="Canal Zone"] <- NA
+    
+    #Puerto Rico has no assault data.
+    FinalData$CategorySum[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$AssaultsTwo[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$AssaultsThree[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$KilledFelony[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$KilledTot[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$KilledAccident[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$AssaultGunSum[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$AssaultClose[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$AssaultCivDisorder[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$AssaultSusPerson[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$AssaultDisturbCall[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$AssaultBurglaries[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$AssaultRobberies[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$AssaultOther[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$AssaultInjuryToT[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$AssaultNoInjuryToT[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$AssaultInjGun[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$AssaultNoInjGun[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$AssaultGun[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$CivGuns[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$AssaultNoInjClose[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$CivClose[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$TotalEmployees[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$Population[FinalData$State=="Puerto Rico"] <- NA
+    FinalData$OfficerPer1000[FinalData$State=="Puerto Rico"] <- NA
+    
+    #Guam potentially starts reporting around 2012.
+    FinalData$CategorySum[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$AssaultsTwo[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$AssaultsThree[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$KilledFelony[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$KilledTot[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$KilledAccident[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$AssaultGunSum[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$AssaultClose[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$AssaultCivDisorder[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$AssaultSusPerson[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$AssaultDisturbCall[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$AssaultBurglaries[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$AssaultRobberies[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$AssaultOther[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$AssaultInjuryToT[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$AssaultNoInjuryToT[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$AssaultInjGun[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$AssaultNoInjGun[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$AssaultGun[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$CivGuns[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$AssaultNoInjClose[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$CivClose[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$TotalEmployees[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$Population[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    FinalData$OfficerPer1000[FinalData$State=="Guam" & FinalData$Year<2012] <- NA
+    
+    #Florida has no assault data except in December.
+    FinalData$CategorySum[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$AssaultsTwo[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$AssaultsThree[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$KilledFelony[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$KilledTot[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$KilledAccident[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$AssaultGunSum[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$AssaultClose[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$AssaultCivDisorder[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$AssaultSusPerson[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$AssaultDisturbCall[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$AssaultBurglaries[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$AssaultRobberies[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$AssaultOther[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$AssaultInjuryToT[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$AssaultNoInjuryToT[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$AssaultInjGun[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$AssaultNoInjGun[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$AssaultGun[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$CivGuns[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$AssaultNoInjClose[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$CivClose[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$TotalEmployees[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$Population[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    FinalData$OfficerPer1000[FinalData$State=="Florida" & FinalData$Month!="December"] <- NA
+    
+    #Alabama, 2001, just has Jan and December.
+    FinalData$CategorySum[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$AssaultsTwo[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$AssaultsThree[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$KilledFelony[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$KilledTot[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$KilledAccident[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$AssaultGunSum[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$AssaultClose[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$AssaultCivDisorder[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$AssaultSusPerson[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$AssaultDisturbCall[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$AssaultBurglaries[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$AssaultRobberies[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$AssaultOther[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$AssaultInjuryToT[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$AssaultNoInjuryToT[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$AssaultInjGun[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$AssaultNoInjGun[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$AssaultGun[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$CivGuns[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$AssaultNoInjClose[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$CivClose[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$TotalEmployees[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$Population[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+    FinalData$OfficerPer1000[FinalData$State=="Alabama" & FinalData$Year==2001 & FinalData$Year!="December" & FinalData$Year!="January"] <- NA
+
+    #UCR Missings - Florida you SUCK
+    #Florida,1999
+    FinalData$ActNumMurd[FinalData$State=="Florida"] <- NA
+    FinalData$ActNumRape[FinalData$State=="Florida"] <- NA
+    FinalData$ActNumRobb[FinalData$State=="Florida"] <- NA
+    FinalData$ActNumAsst[FinalData$State=="Florida"] <- NA
+    FinalData$ActNumAsstTwo[FinalData$State=="Florida"] <- NA
+    FinalData$UnfNumMurd[FinalData$State=="Florida"] <- NA
+    FinalData$UnfNumRape[FinalData$State=="Florida"] <- NA
+    FinalData$UnfNumRobb[FinalData$State=="Florida"] <- NA
+    FinalData$UnfNumAsst[FinalData$State=="Florida"] <- NA
+    FinalData$UnfNumAsstTwo[FinalData$State=="Florida"] <- NA
+    FinalData$UnfForcEnt[FinalData$State=="Florida"] <- NA
+    FinalData$UnfEntry[FinalData$State=="Florida"] <- NA
+    FinalData$UnfSimAsst[FinalData$State=="Florida"] <- NA
+    FinalData$UnfBurgTtl[FinalData$State=="Florida"] <- NA
+    FinalData$UnfAttBurg[FinalData$State=="Florida"] <- NA
+    FinalData$UnfLarcny[FinalData$State=="Florida"] <- NA
+    FinalData$UnfAutoThf[FinalData$State=="Florida"] <- NA
+    FinalData$UnfBusThf[FinalData$State=="Florida"] <- NA
+    FinalData$UnfOVThf[FinalData$State=="Florida"] <- NA
+    FinalData$VioCrime[FinalData$State=="Florida"] <- NA
+    FinalData$VioCrime2[FinalData$State=="Florida"] <- NA
+    FinalData$Population[FinalData$State=="Florida"] <- NA
+    FinalData$ViCrimePop[FinalData$State=="Florida"] <- NA
+    #Rhode Island,2003
+    FinalData$ActNumMurd[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$ActNumRape[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$ActNumRobb[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$ActNumAsst[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$ActNumAsstTwo[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$UnfNumMurd[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$UnfNumRape[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$UnfNumRobb[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$UnfNumAsst[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$UnfNumAsstTwo[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$UnfForcEnt[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$UnfEntry[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$UnfSimAsst[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$UnfBurgTtl[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$UnfAttBurg[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$UnfLarcny[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$UnfAutoThf[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$UnfBusThf[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$UnfOVThf[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$VioCrime[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$VioCrime2[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$Population[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    FinalData$ViCrimePop[FinalData$State=="Rhode Island" & FinalData$Year==2003] <- NA
+    #Rhode Island,2004
+    FinalData$ActNumMurd[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$ActNumRape[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$ActNumRobb[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$ActNumAsst[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$ActNumAsstTwo[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$UnfNumMurd[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$UnfNumRape[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$UnfNumRobb[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$UnfNumAsst[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$UnfNumAsstTwo[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$UnfForcEnt[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$UnfEntry[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$UnfSimAsst[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$UnfBurgTtl[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$UnfAttBurg[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$UnfLarcny[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$UnfAutoThf[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$UnfBusThf[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$UnfOVThf[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$VioCrime[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$VioCrime2[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$Population[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    FinalData$ViCrimePop[FinalData$State=="Rhode Island" & FinalData$Year==2004] <- NA
+    
+    #LABOR MISSINGS
+    FinalData$civil_noninstitutionalpop[FinalData$State=="Guam" & FinalData$Year==1998] <- NA
+    FinalData$civil_noninstitutionalpop[FinalData$State=="Canal Zone" & FinalData$Year==1998] <- NA
+    FinalData$civil_noninstitutionalpop[FinalData$State=="Puerto Rico" & FinalData$Year==1998] <- NA
+    FinalData$civil_noninstitutionalpop[FinalData$State=="Virgin Islands" & FinalData$Year==1998] <- NA
+    
+    FinalData$laborforce[FinalData$State=="Guam" & FinalData$Year==1998] <- NA
+    FinalData$laborforce[FinalData$State=="Canal Zone" & FinalData$Year==1998] <- NA
+    FinalData$laborforce[FinalData$State=="Puerto Rico" & FinalData$Year==1998] <- NA
+    FinalData$laborforce[FinalData$State=="Virgin Islands" & FinalData$Year==1998] <- NA
+    
+    FinalData$percentlaborforce[FinalData$State=="Guam" & FinalData$Year==1998] <- NA
+    FinalData$percentlaborforce[FinalData$State=="Canal Zone" & FinalData$Year==1998] <- NA
+    FinalData$percentlaborforce[FinalData$State=="Puerto Rico" & FinalData$Year==1998] <- NA
+    FinalData$percentlaborforce[FinalData$State=="Virgin Islands" & FinalData$Year==1998] <- NA
+    
+    FinalData$totalemploy[FinalData$State=="Guam" & FinalData$Year==1998] <- NA
+    FinalData$totalemploy[FinalData$State=="Canal Zone" & FinalData$Year==1998] <- NA
+    FinalData$totalemploy[FinalData$State=="Puerto Rico" & FinalData$Year==1998] <- NA
+    FinalData$totalemploy[FinalData$State=="Virgin Islands" & FinalData$Year==1998] <- NA
+    
+    FinalData$peremploy[FinalData$State=="Guam" & FinalData$Year==1998] <- NA
+    FinalData$peremploy[FinalData$State=="Canal Zone" & FinalData$Year==1998] <- NA
+    FinalData$peremploy[FinalData$State=="Puerto Rico" & FinalData$Year==1998] <- NA
+    FinalData$peremploy[FinalData$State=="Virgin Islands" & FinalData$Year==1998] <- NA
+    
+    FinalData$totalunemploy[FinalData$State=="Guam" & FinalData$Year==1998] <- NA
+    FinalData$totalunemploy[FinalData$State=="Canal Zone" & FinalData$Year==1998] <- NA
+    FinalData$totalunemploy[FinalData$State=="Puerto Rico" & FinalData$Year==1998] <- NA
+    FinalData$totalunemploy[FinalData$State=="Virgin Islands" & FinalData$Year==1998] <- NA
+    
+    FinalData$unemployrate[FinalData$State=="Guam" & FinalData$Year==1998] <- NA
+    FinalData$unemployrate[FinalData$State=="Canal Zone" & FinalData$Year==1998] <- NA
+    FinalData$unemployrate[FinalData$State=="Puerto Rico" & FinalData$Year==1998] <- NA
+    FinalData$unemployrate[FinalData$State=="Virgin Islands" & FinalData$Year==1998] <- NA
+    
+    FinalData$CategorySum[FinalData$Year<1998] <- NA
+    FinalData$AssaultsTwo[FinalData$Year<1998] <- NA
+    FinalData$AssaultsThree[FinalData$Year<1998] <- NA
+    FinalData$KilledFelony[FinalData$Year<1998] <- NA
+    FinalData$KilledTot[FinalData$Year<1998] <- NA
+    FinalData$KilledAccident[FinalData$Year<1998] <- NA
+    FinalData$AssaultGunSum[FinalData$Year<1998] <- NA
+    FinalData$AssaultClose[FinalData$Year<1998] <- NA
+    FinalData$AssaultCivDisorder[FinalData$Year<1998] <- NA
+    FinalData$AssaultSusPerson[FinalData$Year<1998] <- NA
+    FinalData$AssaultDisturbCall[FinalData$Year<1998] <- NA
+    FinalData$AssaultBurglaries[FinalData$Year<1998] <- NA
+    FinalData$AssaultRobberies[FinalData$Year<1998] <- NA
+    FinalData$AssaultOther[FinalData$Year<1998] <- NA
+    FinalData$AssaultInjuryToT[FinalData$Year<1998] <- NA
+    FinalData$AssaultNoInjuryToT[FinalData$Year<1998] <- NA
+    FinalData$AssaultInjGun[FinalData$Year<1998] <- NA
+    FinalData$AssaultNoInjGun[FinalData$Year<1998] <- NA
+    FinalData$AssaultGun[FinalData$Year<1998] <- NA
+    FinalData$CivGuns[FinalData$Year<1998] <- NA
+    FinalData$AssaultNoInjClose[FinalData$Year<1998] <- NA
+    FinalData$CivClose[FinalData$Year<1998] <- NA
+    FinalData$TotalEmployees[FinalData$Year<1998] <- NA
+    FinalData$Population[FinalData$Year<1998] <- NA
+    FinalData$OfficerPer1000[FinalData$Year<1998] <- NA
+    
+    FinalData$wnhm[FinalData$Year<1998] <- NA
+    FinalData$bnhm[FinalData$Year<1998] <- NA
+    FinalData$ainhm[FinalData$Year<1998] <- NA
+    FinalData$asnhm[FinalData$Year<1998] <- NA
+    FinalData$whm[FinalData$Year<1998] <- NA
+    FinalData$bhm[FinalData$Year<1998] <- NA
+    FinalData$aihm[FinalData$Year<1998] <- NA
+    FinalData$ashm[FinalData$Year<1998] <- NA
+    FinalData$wnhf[FinalData$Year<1998] <- NA
+    FinalData$bnhf[FinalData$Year<1998] <- NA
+    FinalData$ainhf[FinalData$Year<1998] <- NA
+    FinalData$asnhf[FinalData$Year<1998] <- NA
+    FinalData$whf[FinalData$Year<1998] <- NA
+    FinalData$bhf[FinalData$Year<1998] <- NA
+    FinalData$aihf[FinalData$Year<1998] <- NA
+    FinalData$ashf[FinalData$Year<1998] <- NA
+    FinalData$demo_pop[FinalData$Year<1998] <- NA
+    FinalData$female_pop[FinalData$Year<1998] <- NA
+    FinalData$male_pop[FinalData$Year<1998] <- NA
+    FinalData$black_pop[FinalData$Year<1998] <- NA
+    FinalData$female_perc[FinalData$Year<1998] <- NA
+    FinalData$male_perc[FinalData$Year<1998] <- NA
+    FinalData$black_perc[FinalData$Year<1998] <- NA
+    FinalData$wnhm[FinalData$Year>2014] <- NA
+    FinalData$bnhm[FinalData$Year>2014] <- NA
+    FinalData$ainhm[FinalData$Year>2014] <- NA
+    FinalData$asnhm[FinalData$Year>2014] <- NA
+    FinalData$whm[FinalData$Year>2014] <- NA
+    FinalData$bhm[FinalData$Year>2014] <- NA
+    FinalData$aihm[FinalData$Year>2014] <- NA
+    FinalData$ashm[FinalData$Year>2014] <- NA
+    FinalData$wnhf[FinalData$Year>2014] <- NA
+    FinalData$bnhf[FinalData$Year>2014] <- NA
+    FinalData$ainhf[FinalData$Year>2014] <- NA
+    FinalData$asnhf[FinalData$Year>2014] <- NA
+    FinalData$whf[FinalData$Year>2014] <- NA
+    FinalData$bhf[FinalData$Year>2014] <- NA
+    FinalData$aihf[FinalData$Year>2014] <- NA
+    FinalData$ashf[FinalData$Year>2014] <- NA
+    FinalData$demo_pop[FinalData$Year>2014] <- NA
+    FinalData$female_pop[FinalData$Year>2014] <- NA
+    FinalData$male_pop[FinalData$Year>2014] <- NA
+    FinalData$black_pop[FinalData$Year>2014] <- NA
+    FinalData$female_perc[FinalData$Year>2014] <- NA
+    FinalData$male_perc[FinalData$Year>2014] <- NA
+    FinalData$black_perc[FinalData$Year>2014] <- NA
+    
+    FinalData$MedianIncome[FinalData$Year<1998] <- NA
+    FinalData$MedianIncome[FinalData$Year>2014] <- NA
+    FinalData$MedianIncome[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    
+    FinalData$wnhm[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$bnhm[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$ainhm[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$asnhm[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$whm[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$bhm[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$aihm[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$ashm[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$wnhf[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$bnhf[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$ainhf[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$asnhf[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$whf[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$bhf[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$aihf[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$ashf[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$demo_pop[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$female_pop[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$male_pop[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$black_pop[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$female_perc[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$male_perc[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    FinalData$black_perc[FinalData$State=="Virgin Islands" | FinalData$State=="Guam" | FinalData$State=="Puerto Rico"] <- NA
+    
+    FinalData$CategorySum[FinalData$Year<1998] <- NA
+    FinalData$AssaultsTwo[FinalData$Year<1998] <- NA
+    FinalData$AssaultsThree[FinalData$Year<1998] <- NA
+    FinalData$KilledFelony[FinalData$Year<1998] <- NA
+    FinalData$KilledTot[FinalData$Year<1998] <- NA
+    FinalData$KilledAccident[FinalData$Year<1998] <- NA
+    FinalData$AssaultGunSum[FinalData$Year<1998] <- NA
+    FinalData$AssaultClose[FinalData$Year<1998] <- NA
+    FinalData$AssaultCivDisorder[FinalData$Year<1998] <- NA
+    FinalData$AssaultSusPerson[FinalData$Year<1998] <- NA
+    FinalData$AssaultDisturbCall[FinalData$Year<1998] <- NA
+    FinalData$AssaultBurglaries[FinalData$Year<1998] <- NA
+    FinalData$AssaultRobberies[FinalData$Year<1998] <- NA
+    FinalData$AssaultOther[FinalData$Year<1998] <- NA
+    FinalData$AssaultInjuryToT[FinalData$Year<1998] <- NA
+    FinalData$AssaultNoInjuryToT[FinalData$Year<1998] <- NA
+    FinalData$AssaultInjGun[FinalData$Year<1998] <- NA
+    FinalData$AssaultNoInjGun[FinalData$Year<1998] <- NA
+    FinalData$AssaultGun[FinalData$Year<1998] <- NA
+    FinalData$CivGuns[FinalData$Year<1998] <- NA
+    FinalData$AssaultNoInjClose[FinalData$Year<1998] <- NA
+    FinalData$CivClose[FinalData$Year<1998] <- NA
+    FinalData$TotalEmployees[FinalData$Year<1998] <- NA
+    FinalData$Population[FinalData$Year<1998] <- NA
+    FinalData$OfficerPer1000[FinalData$Year<1998] <- NA
+    FinalData$civil_noninstitutionalpop[FinalData$Year<1998] <- NA
+    FinalData$laborforce[FinalData$Year<1998] <- NA
+    FinalData$percentlaborforce[FinalData$Year<1998] <- NA
+    FinalData$totalemploy[FinalData$Year<1998] <- NA
+    FinalData$peremploy[FinalData$Year<1998] <- NA
+    FinalData$totalunemploy[FinalData$Year<1998] <- NA
+    FinalData$unemployrate[FinalData$Year<1998] <- NA
+    FinalData$ActNumMurd[FinalData$Year<1998] <- NA
+    FinalData$ActNumRape[FinalData$Year<1998] <- NA
+    FinalData$ActNumRobb[FinalData$Year<1998] <- NA
+    FinalData$ActNumAsst[FinalData$Year<1998] <- NA
+    FinalData$UnfNumMurd[FinalData$Year<1998] <- NA
+    FinalData$UnfNumRape[FinalData$Year<1998] <- NA
+    FinalData$UnfNumRobb[FinalData$Year<1998] <- NA
+    FinalData$UnfNumAsst[FinalData$Year<1998] <- NA
+    FinalData$UnfForcEnt[FinalData$Year<1998] <- NA
+    FinalData$UnfEntry[FinalData$Year<1998] <- NA
+    FinalData$UnfSimAsst[FinalData$Year<1998] <- NA
+    FinalData$UnfBurgTtl[FinalData$Year<1998] <- NA
+    FinalData$UnfAttBurg[FinalData$Year<1998] <- NA
+    FinalData$UnfLarcny[FinalData$Year<1998] <- NA
+    FinalData$UnfAutoThf[FinalData$Year<1998] <- NA
+    FinalData$UnfBusThf[FinalData$Year<1998] <- NA
+    FinalData$UnfOVThf[FinalData$Year<1998] <- NA
+    FinalData$VioCrime[FinalData$Year<1998] <- NA
+    FinalData$VioCrime2[FinalData$Year<1998] <- NA
+    FinalData$CategorySum[FinalData$Year>2014] <- NA
+    FinalData$AssaultsTwo[FinalData$Year>2014] <- NA
+    FinalData$AssaultsThree[FinalData$Year>2014] <- NA
+    FinalData$KilledFelony[FinalData$Year>2014] <- NA
+    FinalData$KilledTot[FinalData$Year>2014] <- NA
+    FinalData$KilledAccident[FinalData$Year>2014] <- NA
+    FinalData$AssaultGunSum[FinalData$Year>2014] <- NA
+    FinalData$AssaultClose[FinalData$Year>2014] <- NA
+    FinalData$AssaultCivDisorder[FinalData$Year>2014] <- NA
+    FinalData$AssaultSusPerson[FinalData$Year>2014] <- NA
+    FinalData$AssaultDisturbCall[FinalData$Year>2014] <- NA
+    FinalData$AssaultBurglaries[FinalData$Year>2014] <- NA
+    FinalData$AssaultRobberies[FinalData$Year>2014] <- NA
+    FinalData$AssaultOther[FinalData$Year>2014] <- NA
+    FinalData$AssaultInjuryToT[FinalData$Year>2014] <- NA
+    FinalData$AssaultNoInjuryToT[FinalData$Year>2014] <- NA
+    FinalData$AssaultInjGun[FinalData$Year>2014] <- NA
+    FinalData$AssaultNoInjGun[FinalData$Year>2014] <- NA
+    FinalData$AssaultGun[FinalData$Year>2014] <- NA
+    FinalData$CivGuns[FinalData$Year>2014] <- NA
+    FinalData$AssaultNoInjClose[FinalData$Year>2014] <- NA
+    FinalData$CivClose[FinalData$Year>2014] <- NA
+    FinalData$TotalEmployees[FinalData$Year>2014] <- NA
+    FinalData$Population[FinalData$Year>2014] <- NA
+    FinalData$OfficerPer1000[FinalData$Year>2014] <- NA
+    FinalData$CategorySum[FinalData$Year==2016] <- NA
+    FinalData$AssaultsTwo[FinalData$Year==2016] <- NA
+    FinalData$AssaultsThree[FinalData$Year==2016] <- NA
+    FinalData$KilledFelony[FinalData$Year==2016] <- NA
+    FinalData$KilledTot[FinalData$Year==2016] <- NA
+    FinalData$KilledAccident[FinalData$Year==2016] <- NA
+    FinalData$AssaultGunSum[FinalData$Year==2016] <- NA
+    FinalData$AssaultClose[FinalData$Year==2016] <- NA
+    FinalData$AssaultCivDisorder[FinalData$Year==2016] <- NA
+    FinalData$AssaultSusPerson[FinalData$Year==2016] <- NA
+    FinalData$AssaultDisturbCall[FinalData$Year==2016] <- NA
+    FinalData$AssaultBurglaries[FinalData$Year==2016] <- NA
+    FinalData$AssaultRobberies[FinalData$Year==2016] <- NA
+    FinalData$AssaultOther[FinalData$Year==2016] <- NA
+    FinalData$AssaultInjuryToT[FinalData$Year==2016] <- NA
+    FinalData$AssaultNoInjuryToT[FinalData$Year==2016] <- NA
+    FinalData$AssaultInjGun[FinalData$Year==2016] <- NA
+    FinalData$AssaultNoInjGun[FinalData$Year==2016] <- NA
+    FinalData$AssaultGun[FinalData$Year==2016] <- NA
+    FinalData$CivGuns[FinalData$Year==2016] <- NA
+    FinalData$AssaultNoInjClose[FinalData$Year==2016] <- NA
+    FinalData$CivClose[FinalData$Year==2016] <- NA
+    FinalData$TotalEmployees[FinalData$Year==2016] <- NA
+    FinalData$Population[FinalData$Year==2016] <- NA
+    FinalData$OfficerPer1000[FinalData$Year==2016] <- NA
+    FinalData$ActNumMurd[FinalData$Year==2016] <- NA
+    FinalData$ActNumRape[FinalData$Year==2016] <- NA
+    FinalData$ActNumRobb[FinalData$Year==2016] <- NA
+    FinalData$ActNumAsst[FinalData$Year==2016] <- NA
+    FinalData$ActNumAsstTwo[FinalData$Year==2016] <- NA
+    FinalData$UnfNumMurd[FinalData$Year==2016] <- NA
+    FinalData$UnfNumRape[FinalData$Year==2016] <- NA
+    FinalData$UnfNumRobb[FinalData$Year==2016] <- NA
+    FinalData$UnfNumAsst[FinalData$Year==2016] <- NA
+    FinalData$UnfNumAsstTwo[FinalData$Year==2016] <- NA
+    FinalData$UnfForcEnt[FinalData$Year==2016] <- NA
+    FinalData$UnfEntry[FinalData$Year==2016] <- NA
+    FinalData$UnfSimAsst[FinalData$Year==2016] <- NA
+    FinalData$UnfBurgTtl[FinalData$Year==2016] <- NA
+    FinalData$UnfAttBurg[FinalData$Year==2016] <- NA
+    FinalData$UnfLarcny[FinalData$Year==2016] <- NA
+    FinalData$UnfAutoThf[FinalData$Year==2016] <- NA
+    FinalData$UnfBusThf[FinalData$Year==2016] <- NA
+    FinalData$UnfOVThf[FinalData$Year==2016] <- NA
+    FinalData$VioCrime[FinalData$Year==2016] <- NA
+    FinalData$VioCrime2[FinalData$Year==2016] <- NA
+    FinalData$Population[FinalData$Year==2016] <- NA
+    FinalData$ViCrimePop[FinalData$Year==2016] <- NA
+    FinalData$ActNumMurd[FinalData$Year==2015] <- NA
+    FinalData$ActNumRape[FinalData$Year==2015] <- NA
+    FinalData$ActNumRobb[FinalData$Year==2015] <- NA
+    FinalData$ActNumAsst[FinalData$Year==2015] <- NA
+    FinalData$ActNumAsstTwo[FinalData$Year==2015] <- NA
+    FinalData$UnfNumMurd[FinalData$Year==2015] <- NA
+    FinalData$UnfNumRape[FinalData$Year==2015] <- NA
+    FinalData$UnfNumRobb[FinalData$Year==2015] <- NA
+    FinalData$UnfNumAsst[FinalData$Year==2015] <- NA
+    FinalData$UnfNumAsstTwo[FinalData$Year==2015] <- NA
+    FinalData$UnfForcEnt[FinalData$Year==2015] <- NA
+    FinalData$UnfEntry[FinalData$Year==2015] <- NA
+    FinalData$UnfSimAsst[FinalData$Year==2015] <- NA
+    FinalData$UnfBurgTtl[FinalData$Year==2015] <- NA
+    FinalData$UnfAttBurg[FinalData$Year==2015] <- NA
+    FinalData$UnfLarcny[FinalData$Year==2015] <- NA
+    FinalData$UnfAutoThf[FinalData$Year==2015] <- NA
+    FinalData$UnfBusThf[FinalData$Year==2015] <- NA
+    FinalData$UnfOVThf[FinalData$Year==2015] <- NA
+    FinalData$VioCrime[FinalData$Year==2015] <- NA
+    FinalData$VioCrime2[FinalData$Year==2015] <- NA
+    FinalData$Population[FinalData$Year==2015] <- NA
+    FinalData$ViCrimePop[FinalData$Year==2015] <- NA
+    FinalData$ViCrimePop[FinalData$ViCrimePop==0] <- NA
+    return(FinalData)  
 }
