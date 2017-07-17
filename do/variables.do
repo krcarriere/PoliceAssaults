@@ -37,7 +37,7 @@ replace ov_correcttime = 204 + month if year==2015
 replace ov_correcttime = 216 + month if year==2016
 
 gen npr_correcttime = .
-replace npr_correcttime = 1 if year==2005
+replace npr_correcttime = 1 if year==2005 & month==12
 replace npr_correcttime = 1  + month if year==2006
 replace npr_correcttime = 13  + month if year==2007
 replace npr_correcttime = 25  + month if year==2008
@@ -74,9 +74,10 @@ replace officerper1000 = officerper1000[_n-1] if officerper1000==0
 replace totalemployees = totalemployees[_n-1] if totalemployees==0
 
 *Make the variables simplier.
-replace ov_record_quantity = (ov_record_quantity + ov_lights_quantity)
+replace ov_record_quantity = (ov_record_quantity + ov_lights_quantity + ov_disaster_quantity)
 replace ov_clothing_quantity = (ov_clothing_quantity + ov_bags_quantity)
 *replace ov_weapon_quantity = (ov_ammo_quantity + ov_guncase_quantity + ov_weapon_quantity)
+ 
 gen lincome = log(medianincome+1)
  sort state year month
  replace ov_weapon_quantity=0 if ov_weapon_quantity==.
@@ -98,8 +99,12 @@ gen lincome = log(medianincome+1)
  label variable l6_ov_weapons "# OV Six Month Lagged Weapon Purchase"
  
  by state: gen l3_ov_weapons = ov_weapon_quantity[_n-3]
+ gen l3_ov_weapons_hund  = l3_ov_weapons/100
  
  by state: gen l4_ov_weapons = ov_weapon_quantity[_n-4]
+ gen l4_ov_weapons_hund  = l4_ov_weapons/100
+ 
+ 
  
  by state: gen l6_ov_weapons_stockpile = ov_weapons_stockpile[_n-6]
  label variable l6_ov_weapons_stockpile "# OV Six Month Lagged Weapon Stockpile"
@@ -113,6 +118,7 @@ gen lincome = log(medianincome+1)
  label variable l3_ov_weapons_stockpile "# OV Three Month Lagged Weapon Stockpile"
  gen l3_ov_weapons_stockpile_hund = l3_ov_weapons_stockpile/100
  label variable l3_ov_weapons_stockpile_hund "# OV Three Month Lagged Weapon Stockpile by Hundreds"
+
  
  replace ov_weapon_totalcost=0 if ov_weapon_totalcost==.
  gen ov_ln_weapon_totalcost = log(ov_weapon_totalcost+1)
@@ -296,6 +302,13 @@ by state: gen l6_ov_quallife_stockpile = ov_quallife_stockpile[_n-6]
  gen l6_ov_photo_cost_stock_thous = l6_ov_photo_cost_stockpile/10000
  gen l6_ov_ln_photo_cost_stockpile = log(l6_ov_photo_cost_stockpile+1)
  
+ by state: gen l4_ov_armor = ov_armor_quantity[_n-4]
+ gen l4_ov_armor_hund = l4_ov_armor/100
+ 
+by state: gen l3_ov_armor = ov_armor_quantity[_n-3]
+ gen l3_ov_armor_hund = l3_ov_armor/100
+ 
+ 
  replace ov_armor_quantity= 0 if ov_armor_quantity==.
  by state: gen l6_ov_armor = ov_armor_quantity[_n-6]
  gen l6_ov_armor_hund = l6_ov_armor/100
@@ -304,20 +317,32 @@ by state: gen l6_ov_quallife_stockpile = ov_quallife_stockpile[_n-6]
  label variable ov_armor_stockpile "# OV Armor Stockpiled"
  replace ov_armor_stockpile = 0 if ov_armor_stockpile ==.
  by state: gen l6_ov_armor_stockpile = ov_armor_stockpile[_n-6]
- label variable l6_ov_armor_stockpile "# OV 6 Month Lag Military armor Stockpiled"
+ label variable l6_ov_armor_stockpile "# OV 6 Month Lag Military Armor Stockpiled"
  gen l6_ov_armor_stockpile_hund = l6_ov_armor_stockpile/100
- label variable l6_ov_armor_stockpile_hund "# OV 6 Month Lag Military armor Stockpiled by Hundreds"
+ label variable l6_ov_armor_stockpile_hund "# OV 6 Month Lag Military Armor Stockpiled by Hundreds"
  by state: gen l4_ov_armor_stockpile = ov_armor_stockpile[_n-4]
- label variable l4_ov_armor_stockpile "# OV 4 Month Lag Military armor Stockpiled"
+ label variable l4_ov_armor_stockpile "# OV 4 Month Lag Military Armor Stockpiled"
  gen l4_ov_armor_stockpile_hund = l4_ov_armor_stockpile/100
- label variable l4_ov_armor_stockpile_hund "# OV 4 Month Lag Military armor Stockpiled by Hundreds"
+ label variable l4_ov_armor_stockpile_hund "# OV 4 Month Lag Military Armor Stockpiled by Hundreds"
  by state: gen l3_ov_armor_stockpile = ov_armor_stockpile[_n-3]
- label variable l3_ov_armor_stockpile "# OV 3 Month Lag Military armor Stockpiled"
+ label variable l3_ov_armor_stockpile "# OV 3 Month Lag Military Armor Stockpiled"
  gen l3_ov_armor_stockpile_hund = l3_ov_armor_stockpile/100
  label variable l3_ov_armor_stockpile_hund "# OV 3 Month Lagged Armor Stockpile by Hundreds"
  
+ gen ov_clothing_quantity_hund = ov_clothing_quantity/100
+ gen ov_armor_quantity_hund = ov_armor_quantity/100
+ gen ov_weapon_quantity_hund = ov_weapon_quantity/100
+ gen ov_record_quantity_hund = ov_record_quantity/100
+ 
  by state: gen l6_ov_clothing = ov_clothing_quantity[_n-6]
  gen l6_ov_clothing_hund = l6_ov_clothing/100
+ 
+ by state: gen l4_ov_clothing = ov_clothing_quantity[_n-4]
+ gen l4_ov_clothing_hund = l4_ov_clothing/100
+ 
+ by state: gen l3_ov_clothing = ov_clothing_quantity[_n-3]
+ gen l3_ov_clothing_hund = l3_ov_clothing/100
+ 
  by state: gen ov_clothing_stockpile = sum(ov_clothing_quantity)
  gen ov_clothing_stockpile_hund = ov_clothing_stockpile/100
  label variable ov_clothing_stockpile "# OV Military Clothing Stockpiled"
@@ -343,15 +368,8 @@ by state: gen l6_ov_quallife_stockpile = ov_quallife_stockpile[_n-6]
  gen l6_ov_force_hund = l6_ov_force/100
  label variable l6_ov_force "# 6 Month Lag Miltary Look Purchases"
  
- gen ov_survel = ov_record_quantity + ov_lights_quantity + ov_disaster_quantity
- replace ov_survel = 0 if ov_survel ==.
- by state: gen l6_ov_survel = ov_survel[_n-6]
- gen l6_ov_survel_hund = l6_ov_survel/100
- by state: gen ov_survel_stockpile=sum(ov_survel)
- by state: gen l6_ov_survel_stockpile_hund = (ov_survel_stockpile[_n-6])/100
- 
- 
- 
+ by state: gen lastmonthassault = assaults[_n-1]
+ by state: gen sixmonthassault = assaults[_n-6]
  
  gen ov_force_cost = ov_weapon_totalcost + ov_armor_totalcost + ov_clothing_totalcost
  replace ov_force_cost = 0 if ov_force_cost ==.
@@ -398,8 +416,9 @@ gen l6_ov_pro_clofor_stock_hund = l6_ov_clothing_stockpile_hund/l6_ov_force_stoc
  gen l6_ov_photos_hund = l6_ov_photos/100
  *Photo Stockpile Lagged 6 Months
  by state: gen l3_ov_photos = ov_record_quantity[_n-3]
+ gen l3_ov_photos_hund = l3_ov_photos/100
  by state: gen l4_ov_photos = ov_record_quantity[_n-4]
- 
+ gen l4_ov_photos_hund = l4_ov_photos/100
  
  
  by state: gen l6_ov_photo_stockpile = ov_photo_stockpile[_n-6]
@@ -418,11 +437,14 @@ gen l6_ov_pro_clofor_stock_hund = l6_ov_clothing_stockpile_hund/l6_ov_force_stoc
  gen l3_ov_photo_stockpile_hund = l3_ov_photo_stockpile/100
  label variable l3_ov_photo_stockpile_hund "# OV 3 Month Lagged photo Stockpile by Hundreds"
  
-gen l6_ov_perc_weapo_stock_hund = l6_ov_weapons_stockpile_hund/l6_ov_total_stockpile_hund
-gen l6_ov_perc_force_stock_hund = l6_ov_force_stockpile_hund/l6_ov_total_stockpile_hund
-gen l6_ov_perc_cloth_stock_hund = l6_ov_clothing_stockpile_hund/l6_ov_total_stockpile_hund
-gen l6_ov_perc_photo_stock_hund = l6_ov_photo_stockpile_hund/l6_ov_total_stockpile_hund
-gen l6_ov_perc_armor_stock_hund = l6_ov_armor_stockpile_hund/l6_ov_total_stockpile_hund
+gen l6_ov_perc_weapo_stock_hund = l6_ov_weapons_stockpile_hund/l6_ov_total_stockpile_hund*100
+gen l6_ov_perc_force_stock_hund = l6_ov_force_stockpile_hund/l6_ov_total_stockpile_hund*100
+gen l6_ov_perc_cloth_stock_hund = l6_ov_clothing_stockpile_hund/l6_ov_total_stockpile_hund*100
+gen l6_ov_perc_photo_stock_hund = l6_ov_photo_stockpile_hund/l6_ov_total_stockpile_hund*100
+gen l6_ov_perc_armor_stock_hund = l6_ov_armor_stockpile_hund/l6_ov_total_stockpile_hund*100
+
+
+
 
  gen summil = l6_ov_force_stockpile_hund+l6_ov_photo_stockpile_hund
  gen l6_ov_pro_amil_stock_hund = (l6_ov_armor_stockpile_hund/(summil))*100
@@ -484,6 +506,33 @@ by state: egen ov_m_force_quantity = mean(ov_force)
  
  
  
+ by state: gen l12_ov_weapons = ov_weapon_quantity[_n-12]
+ gen l12_ov_weapons_hund  = l12_ov_weapons/100
+ by state: gen l12_ov_weapons_stockpile = ov_weapons_stockpile[_n-12]
+ label variable l12_ov_weapons_stockpile "# OV Twelve Month Lagged Weapon Stockpile"
+ gen l12_ov_weapons_stockpile_hund = l12_ov_weapons_stockpile/100
+ label variable l12_ov_weapons_stockpile_hund "# OV Twelve Month Lagged Weapon Stockpile by Hundreds"
+ 
+  by state: gen l12_ov_armor = ov_armor_quantity[_n-12]
+ gen l12_ov_armor_hund  = l12_ov_armor/100
+ by state: gen l12_ov_armor_stockpile = ov_armor_stockpile[_n-12]
+ label variable l12_ov_armor_stockpile "# OV Twelve Month Lagged Armor Stockpile"
+ gen l12_ov_armor_stockpile_hund = l12_ov_armor_stockpile/100
+ label variable l12_ov_armor_stockpile_hund "# OV Twelve Month Lagged Armor Stockpile by Hundreds"
+ 
+  by state: gen l12_ov_clothing = ov_clothing_quantity[_n-12]
+ gen l12_ov_clothing_hund  = l12_ov_clothing/100
+ by state: gen l12_ov_clothing_stockpile = ov_clothing_stockpile[_n-12]
+ label variable l12_ov_clothing_stockpile "# OV Twelve Month Lagged clothing Stockpile"
+ gen l12_ov_clothing_stockpile_hund = l12_ov_clothing_stockpile/100
+ label variable l12_ov_clothing_stockpile_hund "# OV Twelve Month Lagged clothing Stockpile by Hundreds"
+ 
+by state: gen l12_ov_photos = ov_record_quantity[_n-12]
+ gen l12_ov_photos_hund = l12_ov_photos/100
+ by state: gen l12_ov_photo_stockpile = ov_photo_stockpile[_n-12]
+ label variable l12_ov_photo_stockpile "# OV Twelve Month Lagged photo Stockpile"
+ gen l12_ov_photo_stockpile_hund = l12_ov_photo_stockpile/100
+ label variable l12_ov_photo_stockpile_hund "# OV Twelve Month Lagged photo Stockpile by Hundreds"
  
  
  
@@ -817,9 +866,6 @@ label variable unfnummurd "Unfounded Number of Murders"
  
   global controls "c.officerper1000 c.popmillion c.lincome c.unemployrate c.black_perc"
 
-  global tcontrols "c.testcrime c.popmillion c.officerper1000 c.unemployrate c.black_perc  c.lincome"
- 
- 
  foreach var of varlist assaults l6_ov_weapons l6_ov_force l6_ov_force_stockpile_hund l6_ov_photos l6_ov_weapons_stockpile_hund l6_ov_photo_stockpile l6_npr_weapons_stockpile l6_npr_photo_stockpile {
          egen std_`var' = std(`var') 
 		 }
