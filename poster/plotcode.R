@@ -1,8 +1,6 @@
 library(ggplot2)
 library(cowplot)
 
-police <- readr::read_csv("~/Desktop/PoliceAssaults/threedgraph.csv")
-police <- data.frame(police)
 armor <- read.csv("~/Desktop/test_long_armor.csv")
 armor$lag <- plyr::revalue(armor$lag, c("l3"="Three Month Lag", "l6"="Six Month Lag", "l12"="Twelve Month Lag"))
 armor$lag <- factor(armor$lag, levels = c("Three Month Lag","Six Month Lag","Twelve Month Lag"))
