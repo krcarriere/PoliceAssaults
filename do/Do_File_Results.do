@@ -85,7 +85,7 @@ clear
  /*
  For Poster:
  
- Carriere, K. R., & Encinosa, W. (2017, June). The Militarization of Police: Evidence of Increased Citizen Conflict. Poster Presented at the Society for the Psychological Study of Social Issues Summer Conference, Alberqueque, NM.
+ Carriere, K. R., & Encinosa, W. (2017, June). The Militarization of Police: Evidence of Increased Citizen Conflict. Poster Presented at the Society for the Psychological Study of Social Issues Summer Conference, Albuquerque, NM.
  */
  /*
  sum ov_clothing_quantity
